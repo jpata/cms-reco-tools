@@ -3,10 +3,10 @@ set -e
 
 CMSSW=CMSSW_11_2_X_2020-09-21-1100
 TAG=OzAmram:CR_local_error_bugfix
-PR=31469_2
+PR=31469_3
 WORKFLOW=10859.0
-THREADS=8
-NUMEVENTS=100
+THREADS=16
+NUMEVENTS=500
 
 cd ~/reco
 mkdir -p $PR
@@ -32,11 +32,11 @@ cp -R ../orig/$WORKFLOW_* ./
 
 #rerun only RECO part
 cd $WORKFLOW
-cmsRun step3_RAW2DIGI_L1Reco_RECO_RECOSIM_EI_PAT_VALIDATION_DQM.py > step4.log
-cmsRun step4_HARVESTING.py >& step4.log
+cmsRun step3_RAW2DIGI_L1Reco_RECO_RECOSIM_EI_PAT_VALIDATION_DQM.py >& step3_*.log
+cmsRun step4_HARVESTING.py >& step4_*.log
 cd ../..
  
-#run JR comparison
+#run JR comparison (precompiled using validate_main.cpp && Makefile)
 mkdir comparisonJR
 cd comparisonJR
 ~/tools/validate ../new/$WORKFLOW_*/step3.root ../orig/$WORKFLOW_*/step3.root all
