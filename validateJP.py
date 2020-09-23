@@ -68,17 +68,17 @@ def plot_histograms(h1, h2, outfile_name, histname, ksProb, bDiff):
     h1.SetLineColor(2)
     h1.SetMarkerColor(2)
 
-    h2.Draw()
-    h1.Draw("SAMES")
+    h1.Draw()
+    h2.Draw("SAMES")
 
     max1 = h1.GetMaximum()
     max2 = h2.GetMaximum()
     min1 = h1.GetMinimum()
     min2 = h2.GetMinimum()
     if (max2 > max1):
-        h1.SetMaximum(max2+0.15*abs(max2))
+        h2.SetMaximum(max2+2*abs(max2))
     if (min2 < min1):
-        h1.SetMinimum(min2-0.15*abs(min2))
+        h2.SetMinimum(min2-2*abs(min2))
 
     ksPt = ROOT.TPaveText(0,0, 0.35, 0.04, "NDC")
     ksPt.SetBorderSize(0)
@@ -89,6 +89,12 @@ def plot_histograms(h1, h2, outfile_name, histname, ksProb, bDiff):
         h1.GetEntries(),
         h2.GetEntries()))
     ksPt.Draw()
+
+    legend = ROOT.TLegend(pD.GetUxmin(), pD.GetUymax()-0.1, pD.GetUxmin()+0.15, pD.GetUymax())
+    legend.AddEntry(h1,"this PR","l")
+    legend.AddEntry(h2,"ref","l")
+    legend.Draw()
+
     cv.SaveAs(outfile_name)
 
     cv.Close()
