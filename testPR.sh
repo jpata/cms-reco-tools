@@ -31,15 +31,15 @@ scram b -j $THREADS >& abuild.log
 cp -R ../orig/$WORKFLOW_* ./
 
 #rerun only RECO part
-cd $WORKFLOW
-cmsRun step3_RAW2DIGI_L1Reco_RECO_RECOSIM_EI_PAT_VALIDATION_DQM.py >& step3_*.log
-cmsRun step4_HARVESTING.py >& step4_*.log
+cd $WORKFLOW_*
+cmsRun step3_*.py >& step3_*.log
+cmsRun step4_*.py >& step4_*.log
 cd ../..
  
 #run JR comparison (precompiled using validate_main.cpp && Makefile)
 mkdir comparisonJR
 cd comparisonJR
-~/tools/validate ../new/$WORKFLOW_*/step3.root ../orig/$WORKFLOW_*/step3.root all
+~/tools/validate ../new/$WORKFLOW_*/step3.root ../orig/$WORKFLOW_*/step3.root all > log
 
 #run DQM comparison (multithreaded plots)
 cd ..
