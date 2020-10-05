@@ -7,6 +7,5 @@
   - RecoMET/METAlgorithms
   - CommonTools/CandAlgos
   reco_category: 'JME'
-  title: 'Fixing MET unclustered energy computation and DeepCSV NaN issue (backport
-    of  #29331 and #24943) `analysis`  `reconstruction`'
+  title: 'Fixing MET unclustered energy computation and DeepCSV NaN issue'
 

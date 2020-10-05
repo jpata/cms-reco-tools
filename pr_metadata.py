@@ -40,10 +40,12 @@ def prepare_metadata(release):
     print(yaml.dump(metadatas))
 
 def format_title(title):
-    idx_tag = title.index("`")
-    title = title[:idx_tag].strip()
-    idx_tag = title.index("]")
-    title = title[idx_tag+1:]
+    if "`" in title:
+        idx_tag = title.index("`")
+        title = title[:idx_tag].strip()
+    if "]" in title:
+        idx_tag = title.index("]")
+        title = title[idx_tag+1:]
     return title
 
 def prepare_twiki(release_yaml):
