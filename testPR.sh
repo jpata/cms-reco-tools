@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
-CMSSW=CMSSW_11_2_X_2020-09-21-1100
-TAG=OzAmram:CR_local_error_bugfix
-PR=31469_3
-WORKFLOW=10859.0
+CMSSW=CMSSW_11_2_X_2020-09-27-2300
+TAG=jpata:kdtree_track_ecal_soa
+PR=31191
+WORKFLOW=23434.21
 THREADS=16
-NUMEVENTS=500
+NUMEVENTS=50
 
 cd ~/reco
 mkdir -p $PR

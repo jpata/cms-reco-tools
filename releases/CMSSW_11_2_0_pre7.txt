@@ -1,0 +1,427 @@
+- author: '@CTPPS'
+  number: '31599'
+  packages:
+  - RecoPPS/ProtonReconstruction
+  - Validation/CTPPS
+  reco_category: 'CTPPS'
+  title: 'PPS: fixes related to ForwardProton::LHCSector `dqm`  `reconstruction`'
+- author: '@smuzaffar'
+  number: '31595'
+  packages:
+  - RecoHI/HiJetAlgos
+  reco_category: 'general'
+  title: 'ASAN: protection against accessing invalid memory when ieta==0 `reconstruction`'
+- author: '@hqucms'
+  number: '31570'
+  packages:
+  - RecoBTag/FeatureTools
+  - RecoBTag/ONNXRuntime
+  - RecoBTag/Configuration
+  - PhysicsTools/PatAlgos
+  reco_category: 'BTV'
+  title: ParticleNetAK4 jet tagger `analysis`  `reconstruction`
+- author: '@perrotta'
+  number: '31568'
+  packages:
+  - RecoBTag/Combined
+  reco_category: 'general'
+  title: Conclude removal of type specification from RecoBTag `reconstruction`
+- author: '@smorovic'
+  number: '31543'
+  packages:
+  - EventFilter/Utilities
+  - IOPool/Streamer
+  reco_category: 'DAQ'
+  title: 'DAQ: added 16bit event info (flags) to FRD format `core`  `daq`  `reconstruction`'
+- author: '@jeongeun'
+  number: '31538'
+  packages:
+  - c_vs_b_sklearn.weight.xml',
+  - c_vs_b_sklearn.weight.xml'),
+  - RecoBTag/CTagging
+  - RecoBTag/Combined
+  - RecoBTag/SecondaryVertex
+  - RecoBTag/ImpactParameter
+  - RecoBTag/ONNXRuntime
+  reco_category: 'general'
+  title: drop type specs in RecoBTag `reconstruction`
+- author: '@davidlange6'
+  number: '31534'
+  packages:
+  - DataFormats/ParticleFlowReco
+  reco_category: 'general'
+  title: add back incorrectly removed dependencies to DataFormats/ParticleFlowReco
+    `reconstruction`
+- author: '@guitargeek'
+  number: '31533'
+  packages:
+  - RecoTracker/FinalTrackSelectors
+  - PhysicsTools/Utilities
+  - RecoTracker/MeasurementDet
+  - RecoMuon/MuonIdentification
+  - PhysicsTools/TagAndProbe
+  - RecoLocalMuon/CSCEfficiency
+  - Validation/MuonME0Validation
+  - PhysicsTools/IsolationAlgos
+  - PhysicsTools/PatAlgos
+  - RecoLuminosity/LumiProducer
+  - PhysicsTools/PatUtils
+  reco_category: 'general'
+  title: Clean BuildFiles in Reco `analysis`  `dqm`  `reconstruction`
+- author: '@SohamBhattacharya'
+  number: '31527'
+  packages:
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoParticleFlow/PFClusterProducer
+  - RecoEgamma/EgammaElectronProducers
+  reco_category: 'HGCAL'
+  title: Switching HGCal electrons and photons to TICL-based reconstruction `reconstruction`  `upgrade`
+- author: '@jeongeun'
+  number: '31523'
+  packages:
+  - RecoMET/METProducers
+  - RecoMET/METPUSubtraction
+  reco_category: 'general'
+  title: drop type specs in RecoMET `reconstruction`
+- author: '@Dr15Jones'
+  number: '31514'
+  packages:
+  - DataFormats/TrajectoryState
+  reco_category: 'general'
+  title: Add mising std::vector<LocalTrajectoryParameters> dictionary `reconstruction`
+- author: '@TaeunKwon'
+  number: '31513'
+  packages:
+  - RecoLocalCalo/HcalRecAlgos
+  reco_category: 'HCAL'
+  title: HCAL MAHI code update to take only pedestal noise terms for correlation terms
+    of a noise covariance matrix `reconstruction`
+- author: '@dntaylor'
+  number: '31500'
+  packages:
+  - TrackingTools/TrackAssociator
+  - RecoMuon/MuonIdentification
+  reco_category: 'MUO'
+  title: Fix python style rendering in several muon configuration fragments `reconstruction`
+- author: '@davidlange6'
+  number: '31486'
+  packages:
+  - DataFormats/EgammaTrackReco
+  - DataFormats/EgammaReco
+  - DataFormats/CaloRecHit
+  reco_category: 'general'
+  title: move Egamma related dictionaries to package where class is defined `reconstruction`
+- author: '@jpata'
+  number: '31485'
+  packages:
+  - DataFormats/ParticleFlowReco
+  reco_category: 'PF'
+  title: make multilinks transient `reconstruction`
+- author: '@watson-ij'
+  number: '31481'
+  packages:
+  - RecoLocalMuon/GEMRecHit
+  - DataFormats/MuonReco
+  - RecoMuon/MuonIdentification
+  reco_category: 'MUO'
+  title: 'Cleanup: remove unused ME0MuonTrackCollProducer `reconstruction`  `upgrade`'
+- author: '@watson-ij'
+  number: '31480'
+  packages:
+  - DataFormats/GEMRecHit
+  - Geometry/GEMGeometry
+  - RecoLocalMuon/GEMSegment
+  reco_category: 'MUO'
+  title: Changes to improve GE0  GEMSegments `geometry`  `reconstruction`  `upgrade`
+- author: '@makortel'
+  number: '31471'
+  packages:
+  - JetMETCorrections/Modules
+  - RecoBTag/SoftLepton
+  - RecoLocalTracker/SiStripRecHitConverter
+  - RecoTracker/GeometryESProducer
+  - TrackPropagation/SteppingHelixPropagator
+  - MagneticField/GeomBuilder
+  - ' for examples of'
+  - RecoTracker/TransientTrackingRecHit
+  - RecoBTag/CTagging
+  - RecoBTag/Combined
+  - RecoLocalFastTime/FTLRecProducers
+  - TrackingTools/TransientTrack
+  - TrackingTools/GsfTracking
+  - RecoTracker/MeasurementDet
+  - RecoLocalCalo/HcalRecAlgos
+  - TrackingTools/TrackFitters
+  - TrackingTools/TrackAssociator
+  - TrackingTools/GsfTools
+  - RecoLocalFastTime/FTLClusterizer
+  - RecoBTag/SecondaryVertex
+  - MagneticField/ParametrizedEngine
+  - RecoMTD/TransientTrackingRecHit
+  - RecoPixelVertexing/PixelLowPtUtilities
+  - RecoBTau/JetTagComputer
+  - RecoLocalTracker/Phase2TrackerRecHits
+  - RecoMTD/DetLayers
+  - RecoTracker/TkNavigation
+  - RecoMuon/DetLayers
+  - TrackingTools/Producers
+  - TrackingTools/RecoGeometry
+  - RecoLocalTracker/SiPixelRecHits
+  reco_category: 'general'
+  title: Migrate ESProducers in reconstruction from setConsumes() to type-deducing
+    consumes() `analysis`  `reconstruction`  `upgrade`
+- author: '@OzAmram'
+  number: '31469'
+  packages:
+  - RecoLocalTracker/SiPixelRecHits
+  reco_category: 'TRK'
+  title: PixelCPEClusterRepair Local Errors Bugfix `reconstruction`
+- author: '@guitargeek'
+  number: '31459'
+  packages:
+  - DataFormats/HeavyIonEvent
+  - DataFormats/Scouting
+  - DataFormats/ParticleFlowCandidate
+  - RecoHI/HiEvtPlaneAlgos
+  - DataFormats/RecoCandidate
+  - CommonTools/Utils
+  - DataFormats/HcalDigi
+  - DataFormats/METReco
+  - DataFormats/CSCRecHit
+  - DataFormats/HcalIsolatedTrack
+  - DataFormats/TestObjects
+  - DataFormats/HLTReco
+  - DataFormats/VertexReco
+  - DataFormats/NanoAOD
+  - DataFormats/ProtonReco
+  - DataFormats/CSCDigi
+  - DataFormats/GEMRecHit
+  - DataFormats/PatCandidates
+  - DataFormats/Streamer
+  - DataFormats/ParticleFlowReco
+  - DataFormats/TrajectorySeed
+  - DataFormats/CaloTowers
+  - DataFormats/DTDigi
+  - RecoHI/HiJetAlgos
+  - DataFormats/V0Candidate
+  - DataFormats/CTPPSDigi
+  - DataFormats/MuonSeed
+  - DataFormats/Common
+  - DataFormats/HcalRecHit
+  - DataFormats/HepMCCandidate
+  reco_category: 'general'
+  title: Clean BuildFiles in DataFormats `analysis`  `core`  `generators`  `hlt`  `reconstruction`  `simulation`  `upgrade`  `xpog`
+- author: '@jpata'
+  number: '31456'
+  packages:
+  - DataFormats/ParticleFlowCandidate
+  - RecoParticleFlow/PFProducer
+  reco_category: 'PF'
+  title: ' remove vertex type from PFCandidate, iteration 2 `reconstruction`'
+- author: '@perrotta'
+  number: '31448'
+  packages:
+  - DataFormats/MuonReco
+  - PhysicsTools/PatAlgos
+  - HeavyFlavorAnalysis/RecoDecay
+  reco_category: 'MUO'
+  title: Fix pulls for gem/me0 in MuonSelectors (and simplify it a bit) `analysis`  `reconstruction`
+- author: '@guitargeek'
+  number: '31445'
+  packages:
+  - JetMETCorrections/Modules
+  - JetMETCorrections/Objects
+  - JetMETCorrections/Type1MET
+  - JetMETCorrections/TauJet
+  - JetMETCorrections/Algorithms
+  - JetMETCorrections/JetParton
+  - JetMETCorrections/JetVertexAssociation
+  - JetMETCorrections/IsolatedParticles
+  - JetMETCorrections/MCJet
+  - JetMETCorrections/JetCorrector
+  - JetMETCorrections/FFTJetModules
+  - JetMETCorrections/FFTJetObjects
+  reco_category: 'general'
+  title: Clean BuildFiles in JetMETCorrections `analysis`  `reconstruction`
+- author: '@dpiparo'
+  number: '31433'
+  packages:
+  - DataFormats/TrackReco
+  reco_category: 'TRK'
+  title: 'TrackBase: Reduce number of operations such as divisions, sqrts and multiplications
+    `reconstruction`'
+- author: '@guitargeek'
+  number: '31431'
+  packages:
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoEgamma/EgammaElectronProducers
+  reco_category: 'general'
+  title: Remove unused MVA parameters from GsfElectronProducer `reconstruction`
+- author: '@mtosi'
+  number: '31394'
+  packages:
+  - RecoTracker/TrackProducer
+  reco_category: 'TRK'
+  title: clean magField->nominalValue() `reconstruction`
+- author: '@ghugo83'
+  number: '31383'
+  packages:
+  - Geometry/VeryForwardData
+  - RecoPPS/Local
+  - data/rotations.xml"
+  - data/RP_Sensitive_Dets.xml"
+  - data/ionpump.xml"
+  - Geometry/VeryForwardGeometryBuilder
+  - SimPPS/RPDigiProducer
+  - DetectorDescription/DDCMS
+  - DQM/CTPPS
+  - CondFormats/GeometryObjects
+  - CondTools/Geometry
+  - data/totemt1.xml"
+  - data/beampipe
+  - data/cms
+  - data/totemMaterials.xml"
+  - data/totemRotations.xml"
+  - Geometry/VeryForwardGeometry
+  - data/cmsBeam.xml"
+  - data/CTPPS_UFSD_Segments
+  - Validation/CTPPS
+  - data/2016_ctpps_15sigma_margin0
+  - data/totemt2.xml"
+  - data/forward.xml"
+  - data/mgnt.xml"
+  - data/cmsMother.xml"
+  reco_category: 'DD4HEP'
+  title: 'CTPPS Sim and Reco: Change of paradigm: oldDD and DD4hep in parallel `alca`  `db`  `dqm`  `geometry`  `reconstruction`  `simulation`'
+- author: '@davidlange6'
+  number: '31380'
+  packages:
+  - CalibTracker/SiPixelTools
+  - DQM/SiPixelMonitorRecHit
+  - SimTracker/SiPixelDigitizer
+  - Alignment/TrackerAlignment
+  - DQM/SiPixelMonitorRawData
+  - HLTrigger/special
+  - CondFormats/SiPixelObjects
+  - CalibTracker/SiPixelQuality
+  - RecoLocalTracker/SiPixelClusterizer
+  - RecoLuminosity/LumiProducer
+  - CalibTracker/SiPixelConnectivity
+  - CondTools/SiPixel
+  - DQM/SiPixelPhase1Common
+  - DQM/SiPixelCommon
+  - DQM/SiPixelPhase1Summary
+  - DQM/SiPixelMonitorClient
+  - CondCore/SiPixelPlugins
+  - DQM/SiPixelMonitorCluster
+  - DataFormats/TrackerCommon
+  - EventFilter/SiPixelRawToDigi
+  - DQM/SiPixelMonitorTrack
+  - DataFormats/SiPixelDetId
+  - DQM/SiPixelMonitorDigi
+  reco_category: 'general'
+  title: Move PixelBarrelName and PixelEndcapName into TrackerCommon to avoid circular
+    dependency `alca`  `db`  `dqm`  `hlt`  `reconstruction`  `simulation`
+- author: '@abdoulline'
+  number: '31375'
+  packages:
+  - RecoLocalCalo/HcalRecProducers
+  - PhysicsTools/PatAlgos
+  reco_category: 'HCAL'
+  title: 'HCAL: slimmed collections with non-0 noise flags RecHits for miniAOD `analysis`  `reconstruction`'
+- author: '@guitargeek'
+  number: '31368'
+  packages:
+  - Geometry/RPCGeometryBuilder
+  - RecoPPS/Local
+  - Geometry/VeryForwardRPTopology
+  - Geometry/GlobalTrackingGeometryBuilder
+  - Geometry/GEMGeometryBuilder
+  - Geometry/VeryForwardGeometryBuilder
+  - Geometry/CaloEventSetup
+  - Geometry/CSCGeometryBuilder
+  - SimPPS/RPDigiProducer
+  - Geometry/HGCalGeometry
+  - Geometry/DTGeometry
+  - Geometry/EcalCommonData
+  - Geometry/MuonNumbering
+  - Geometry/TrackerCommonData
+  - Geometry/HcalEventSetup
+  - Geometry/HcalTowerAlgo
+  - Geometry/CSCGeometry
+  - Geometry/VeryForwardGeometry
+  - Geometry/HcalAlgo
+  - Geometry/MTDCommonData
+  - RecoHGCal/TICL
+  - Geometry/DTGeometryBuilder
+  - Geometry/CommonTopologies
+  - Geometry/EcalMapping
+  - Geometry/HcalCommonData
+  - Geometry/ForwardCommonData
+  - Geometry/TrackerGeometryBuilder
+  - Geometry/EcalTestBeam
+  - Geometry/MuonCommonData
+  - Geometry/MTDNumberingBuilder
+  - Geometry/ForwardGeometry
+  - Geometry/HcalTestBeamData
+  - EgammaAnalysis/ElectronTools
+  - Geometry/HGCalCommonData
+  - Geometry/MTDGeometryBuilder
+  - Geometry/TrackerNumberingBuilder
+  - Geometry/CaloTopology
+  - Geometry/EcalAlgo
+  reco_category: 'general'
+  title: Clean BuildFiles in Geometry `analysis`  `geometry`  `reconstruction`  `simulation`  `upgrade`
+- author: '@lathomas'
+  number: '31328'
+  packages:
+  - PhysicsTools/NanoAOD
+  - RecoMET/METFilters
+  - PhysicsTools/PatAlgos
+  reco_category: 'JME'
+  title: HF noise event filter `analysis`  `reconstruction`  `xpog`
+- author: '@Dr15Jones'
+  number: '31313'
+  packages:
+  - FWCore/Framework
+  - FWCore/Utilities
+  - FWCore/Concurrency
+  - CondFormats/CSCObjects
+  - FWCore/PythonFramework
+  - EventFilter/DTRawToDigi
+  - FWCore/Integration
+  - EventFilter/CSCTFRawToDigi
+  - FWCore/TestProcessor
+  reco_category: 'general'
+  title: Remove use of deprecated tbb::task_scheduler_init from FWCore `alca`  `core`  `db`  `l1`  `reconstruction`
+- author: '@hatakeyamak'
+  number: '31295'
+  packages:
+  - DataFormats/ParticleFlowReco
+  - RecoParticleFlow/PFClusterProducer
+  - RecoParticleFlow/PFProducer
+  - HLTrigger/Configuration
+  - RecoParticleFlow/PFClusterTools
+  reco_category: 'PF'
+  title: Reorganization of kdtrees for PFBlockAlgo and optimize track-hcal links `hlt`  `reconstruction`
+- author: '@lathomas'
+  number: '31271'
+  packages:
+  - RecoJets/JetProducers
+  - PhysicsTools/NanoAOD
+  - PhysicsTools/PatAlgos
+  reco_category: 'JME'
+  title: Shower shape variables for HF jets `analysis`  `reconstruction`  `xpog`
+- author: '@battibass'
+  number: '31263'
+  packages:
+  - CalibMuon/DTCalibration
+  - CalibMuon/DTDigiSync
+  - RecoLocalMuon/DTSegment
+  - L1Trigger/DTTriggerPhase2
+  - DQM/DTMonitorModule
+  - HLTrigger/Configuration
+  - RecoLocalMuon/DTRecHit
+  reco_category: 'MUO'
+  title: Make DTTTrigSyncFromDB able to process multiple DTT0 instances `alca`  `dqm`  `hlt`  `l1`  `reconstruction`  `upgrade`
+

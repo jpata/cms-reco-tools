@@ -1,0 +1,7 @@
+- author: '@missirol'
+  number: '31241'
+  packages:
+  - CommonTools/PileupAlgos
+  reco_category: 'JME'
+  title: '[11_1_X] improving performance of PuppiProducer `analysis`  `reconstruction`'
+
