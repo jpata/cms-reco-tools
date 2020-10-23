@@ -1,0 +1,40 @@
+- author: '@cms-tau-pog'
+  number: '31585'
+  packages:
+  - RecoTauTag/RecoTau
+  reco_category: 'TAU'
+  title: Protect against ill-defined track momenta and reffited tau vertices for tauReco@mini
+    (10_6_X) `reconstruction`
+- author: '@abdoulline'
+  number: '31510'
+  packages:
+  - PhysicsTools/PatAlgos
+  - RecoLocalCalo/HcalRecProducers
+  reco_category: 'HCAL'
+  title: '10_6_X backport of  "HCAL: slimmed collections... for miniAOD" (PR #31375)
+    `analysis`  `reconstruction`'
+- author: '@lathomas'
+  number: '31420'
+  packages:
+  - PhysicsTools/PatAlgos
+  - RecoJets/JetProducers
+  - PhysicsTools/NanoAOD
+  reco_category: 'JME'
+  title: HF jet shower shape (106X backport) `analysis`  `reconstruction`  `xpog`
+- author: '@lathomas'
+  number: '31413'
+  packages:
+  - RecoMET/METFilters
+  - PhysicsTools/PatAlgos
+  - PhysicsTools/NanoAOD
+  reco_category: 'JME'
+  title: HF Noise Event Filter 106X backport `analysis`  `reconstruction`  `xpog`
+- author: '@amkalsi'
+  number: '31087'
+  packages:
+  - RecoMET/METFilters
+  - PhysicsTools/PatAlgos
+  - PhysicsTools/NanoAOD
+  reco_category: 'JME'
+  title: 'addition of new MET filter BadPFMuonDzFilter_cfi.py in CMSSW_10_6_X : i.e.
+    backport from 11_1_X of PR 30015 and 30974 `analysis`  `reconstruction`  `xpog`'

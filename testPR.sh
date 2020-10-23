@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 
-CMSSW=CMSSW_11_2_X_2020-09-27-2300
-TAG=jpata:kdtree_track_ecal_soa
-PR=31191
-WORKFLOW=23434.21
-THREADS=16
+CMSSW=CMSSW_11_2_X_2020-10-22-1100
+TAG=rchatter:Updated_MustacheSC_Optimization
+PR=31823
+WORKFLOW=1317.0
+THREADS=8
 NUMEVENTS=50
 
 cd ~/reco

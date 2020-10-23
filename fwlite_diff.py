@@ -23,28 +23,45 @@ class Expression:
 
 expressions = []
 
+#expressions.append(Expression(
+#    "genMetTrue",
+#    "vector<reco::GenMET>",
+#    [("sumEt", "[o.sumEt() for o in obj]")]
+#))
+#
+#expressions.append(Expression(
+#    "pfMet",
+#    "vector<reco::PFMET>",
+#    [("sumEt", "[o.sumEt() for o in obj]")]
+#))
+#
+#expressions.append(Expression(
+#    "ak4TrackJets",
+#    "vector<reco::TrackJet>",
+#    [("pt", "[j.pt() for j in obj]")]
+#))
+#
+#expressions.append(Expression(
+#    "ak4GenJets",
+#    "vector<reco::GenJet>",
+#    [("pt", "[j.pt() for j in obj]"), ("eta", "[j.eta() for j in obj]"), ("phi", "[j.phi() for j in obj]")]
+#))
+
 expressions.append(Expression(
-    "genMetTrue",
-    "vector<reco::GenMET>",
-    [("sumEt", "[o.sumEt() for o in obj]")]
+    "offlinePrimaryVertices",
+    "vector<reco::Vertex>",
+    [
+        ("size", "obj.size()"),
+    ]
 ))
 
 expressions.append(Expression(
-    "pfMet",
-    "vector<reco::PFMET>",
-    [("sumEt", "[o.sumEt() for o in obj]")]
-))
-
-expressions.append(Expression(
-    "ak4TrackJets",
-    "vector<reco::TrackJet>",
-    [("pt", "[j.pt() for j in obj]")]
-))
-
-expressions.append(Expression(
-    "ak4GenJets",
-    "vector<reco::GenJet>",
-    [("pt", "[j.pt() for j in obj]"), ("eta", "[j.eta() for j in obj]"), ("phi", "[j.phi() for j in obj]")]
+    "particleFlowBlock",
+    "vector<reco::PFBlock>",
+    [
+        ("size", "sorted([o.elements().size() for o in obj])"),
+        ("elems", "sorted([[elem.type() for elem in o.elements()] for o in obj])"),
+    ]
 ))
 
 if __name__ == "__main__":
