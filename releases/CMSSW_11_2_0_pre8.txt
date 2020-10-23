@@ -5,13 +5,13 @@
   - RecoEgamma/EgammaPhotonProducers
   - RecoEgamma/Configuration
   reco_category: 'HI'
-  title: Add PbPb modifications to egamma sequences to Run 3 era `analysis`  `reconstruction`
+  title: PbPb modifications to egamma sequences
 - author: '@jeongeun'
   number: '31881'
   packages:
   - RecoHGCal/TICL
-  reco_category: 'general'
-  title: drop type specs in RecoHGCal `reconstruction`  `upgrade`
+  reco_category: 'type-specs'
+  title: RecoHGCal
 - author: '@Dr15Jones'
   number: '31874'
   packages:
@@ -23,7 +23,7 @@
   - L1Trigger/GlobalTriggerAnalyzer
   - DQMOffline/Muon
   reco_category: 'general'
-  title: Removed FwkJob category from MessageLogger config `alca`  `dqm`  `l1`  `reconstruction`
+  title: Removed FwkJob category from MessageLogger
 - author: '@jshlee'
   number: '31863'
   packages:
@@ -31,13 +31,13 @@
   - DataFormats/GEMDigi
   - EventFilter/GEMRawToDigi
   reco_category: 'general'
-  title: 'GEM unpacker: bugfix and more cross checks `db`  `reconstruction`  `simulation`  `upgrade`'
+  title: GEM unpacker bugfix
 - author: '@slava77'
   number: '31844'
   packages:
   - Configuration/StandardSequences
   reco_category: 'HGCAL'
-  title: remove hgcal local reco from reconstruction_trackingOnlyTask for trackingPhase2PU140
+  title: remove hgcal local reco from reconstruction_trackingOnlyTask
     `operations`
 - author: '@makortel'
   number: '31836'
@@ -45,21 +45,21 @@
   - RecoMET/METProducers
   - RecoMET/METAlgorithms
   reco_category: 'general'
-  title: Complete EventSetup-consumes migration for {Ecal,Hcal}HaloDataProducer `reconstruction`
+  title: EventSetup-consumes migration for {Ecal,Hcal}HaloDataProducer
 - author: '@makortel'
   number: '31835'
   packages:
   - RecoLocalCalo/HcalRecProducers
   - RecoLocalCalo/HcalRecAlgos
   reco_category: 'general'
-  title: Complete EventSetup-consumes migration for HBHEIsolatedNoiseReflagger `reconstruction`
+  title: EventSetup-consumes migration for HBHEIsolatedNoiseReflagger
 - author: '@makortel'
   number: '31834'
   packages:
   - RecoMuon/GlobalMuonProducer
   - RecoMuon/GlobalTrackingTools
   reco_category: 'general'
-  title: Migrate some Muon helper classes and EDProducers to EventSetup consumes `reconstruction`
+  title: Migrate some Muon helper classes and EDProducers to EventSetup
 - author: '@makortel'
   number: '31833'
   packages:
@@ -70,8 +70,7 @@
   - RecoTracker/SpecialSeedGenerators
   - TrackingTools/TrackRefitter
   reco_category: 'general'
-  title: Add EventSetup-consumes-migrated code path to TrackTransformer, use it in
-    some Muon code `dqm`  `reconstruction`
+  title: Add EventSetup-consumes-migrated code path to TrackTransformer
 - author: '@makortel'
   number: '31802'
   packages:
@@ -84,14 +83,14 @@
   - Calibration/IsolatedParticles
   - RecoMET/METProducers
   reco_category: 'general'
-  title: Migrate TrackDetectorAssociator to EventSetup consumes `alca`  `analysis`  `reconstruction`
+  title: TrackDetectorAssociator to EventSetup
 - author: '@perrotta'
   number: '31789'
   packages:
   - DataFormats/MuonReco
   - RecoMuon/MuonIdentification
   reco_category: 'MUO'
-  title: Some clean up on reco muon classes `reconstruction`
+  title: Clean up on reco muon classes
 - author: '@mmusich'
   number: '31788'
   packages:
@@ -115,30 +114,29 @@
   - Validation/SiTrackerPhase2V
   - CalibTracker/SiPixelQuality
   reco_category: 'TRK'
-  title: move from MagneticField_AutoFromDBCurrent_cff to MagneticField in all Tracker-related
-    configurations `alca`  `analysis`  `db`  `dqm`  `reconstruction`
+  title: Move from MagneticField_AutoFromDBCurrent_cff to MagneticField
 - author: '@jeongeun'
   number: '31784'
   packages:
   - RecoPixelVertexing/PixelLowPtUtilities
   - RecoPixelVertexing/PixelTriplets
   - RecoVertex/Configuration
-  reco_category: 'general'
-  title: drop type specs in RecoVertex RecoPixelVertexing `reconstruction`
+  reco_category: 'type-specs'
+  title: RecoVertex, RecoPixelVertexing
 - author: '@perrotta'
   number: '31781'
   packages:
   - CalibCalorimetry/HcalAlgos
   - RecoMuon/TrackingTools
   reco_category: 'general'
-  title: Clean up a few dead assignments from CalibCalorimetry/HcalAlgos and RecoMuon/TrackingTools
+  title: Clean up a few dead assignments from HcalAlgos and TrackingTools
     `alca`  `reconstruction`
 - author: '@christopheralanwest'
   number: '31780'
   packages:
   - Configuration/AlCa
   reco_category: 'ALCA'
-  title: Remove obsolete records `alca`
+  title: Remove obsolete records
 - author: '@makortel'
   number: '31779'
   packages:
@@ -149,8 +147,7 @@
   - RecoMuon/TrackingTools
   - RecoMuon/CosmicMuonProducer
   reco_category: 'general'
-  title: Migrate rest of {Cosmic,GlobalCosmic,Global,L2,L3,Standalone}MuonProduer
-    to EventSetup consumes `hlt`  `reconstruction`
+  title: Migrate {Cosmic,GlobalCosmic,Global,L2,L3,Standalone}MuonProducer
 - author: '@makortel'
   number: '31778'
   packages:
@@ -165,13 +162,13 @@
   packages:
   - EventFilter/GEMRawToDigi
   reco_category: 'GEM'
-  title: GEM - fed data size bugfix [EventFilter/GEMRawToDigi] `reconstruction`
+  title: fed data size bugfix
 - author: '@makortel'
   number: '31762'
   packages:
   - RecoMuon/MuonIdentification
   reco_category: 'MUO'
-  title: Migrate rest of MuonIdProducer to EventSetup consumes `reconstruction`
+  title: Migrate MuonIdProducer to EventSetup
 - author: '@Dr15Jones'
   number: '31749'
   packages:
@@ -180,60 +177,59 @@
   - RecoTracker/TkSeedGenerator
   - RecoTracker/TrackProducer
   reco_category: 'TRK'
-  title: Moved ClusterRemovalRefSetter to TrackingTools/PatternTools `reconstruction`
+  title: Moved ClusterRemovalRefSetter to TrackingTools/PatternTools
 - author: '@jeongeun'
   number: '31748'
   packages:
   - RecoTauTag/HLTProducers
   - RecoTauTag/Configuration
   - RecoTauTag/RecoTau
-  reco_category: 'general'
-  title: drop type specs in RecoTauTag `hlt`  `reconstruction`
+  reco_category: 'type-specs'
+  title: RecoTauTag
 - author: '@slava77'
   number: '31738'
   packages:
   - RecoMET/METPUSubtraction
   reco_category: 'JME'
-  title: static const -> const for thread safety in DeepMETProducer::produce variable
-    `reconstruction`
+  title: thread safety in DeepMETProducer
 - author: '@Dr15Jones'
   number: '31736'
   packages:
   - DataFormats/ParticleFlowReco
   reco_category: 'PF'
-  title: Removed vdt dependency on DataFormats/ParticleFlowReco `reconstruction`
+  title: Removed vdt dependency on DataFormats/ParticleFlowReco
 - author: '@apsallid'
   number: '31730'
   packages:
   - RecoLocalCalo/HGCalRecProducers
   reco_category: 'HGCAL'
-  title: '[HGCAL] CLUE and regional factors `reconstruction`  `upgrade`'
+  title: CLUE and regional factors
 - author: '@mandrenguyen'
   number: '31727'
   packages:
   - PhysicsTools/PatAlgos
   reco_category: 'HI'
-  title: Require  highPurity for isolated tracks in heavy-ion workflows `analysis`  `reconstruction`
+  title: Require highPurity for isolated tracks in heavy-ion workflows
 - author: '@ats2008'
   number: '31725'
   packages:
   - RecoPixelVertexing/PixelVertexFinding
   reco_category: 'PIXEL'
-  title: Fix initialisation of maxChi2 data member in PVClusterComparer `reconstruction`
+  title: Fix initialisation of maxChi2 data member in PVClusterComparer
 - author: '@namapane'
   number: '31712'
   packages:
   - DetectorDescription/DDCMS
   - MagneticField/GeomBuilder
   reco_category: 'GEOM'
-  title: fix DDFilteredView::parameters() crashing with a pseudotrapezoid `geometry`  `reconstruction`
+  title: fix DDFilteredView crashing with a pseudotrapezoid
 - author: '@cms-patatrack'
   number: '31704'
   packages:
   - CUDADataFormats/CaloCommon
   - DataFormats/CaloRecHit
   reco_category: 'Patatrack'
-  title: Patatrack integration - calorimeters shared code (6/N) `heterogeneous`  `reconstruction`
+  title: Patatrack integration - calorimeters shared code
 - author: '@guitargeek'
   number: '31700'
   packages:
@@ -247,7 +243,7 @@
   - RecoParticleFlow/PFProducer
   - RecoEgamma/EgammaElectronProducers
   reco_category: 'general'
-  title: Adapt EgammaHadTower and ElectronHcalHelper classes to use ESGetToken `hlt`  `reconstruction`  `upgrade`
+  title: Adapt EgammaHadTower and ElectronHcalHelper classes to use ESGetToken
 - author: '@mandrenguyen'
   number: '31698'
   packages:
@@ -257,19 +253,19 @@
   - RecoHI/HiJetAlgos
   - Configuration/ProcessModifiers
   reco_category: 'HI'
-  title: Sub-event aware genJet and parton matching for HI miniAOD `analysis`  `operations`  `pdmv`  `reconstruction`  `upgrade`
+  title: Sub-event aware genJet and parton matching for HI miniAOD
 - author: '@mmusich'
   number: '31693'
   packages:
   - MagneticField/Engine
   reco_category: 'general'
-  title: fix MF regression test in the Py3 case `reconstruction`
+  title: fix MF regression test in the Py3 case
 - author: '@hatakeyamak'
   number: '31681'
   packages:
   - RecoParticleFlow/PFTracking
   reco_category: 'PF'
-  title: Update NHitCuts_byTrackAlgo for hgcalTrack  `reconstruction`  `upgrade`
+  title: Update NHitCuts_byTrackAlgo for hgcalTrack
 - author: '@mandrenguyen'
   number: '31674'
   packages:
@@ -278,7 +274,7 @@
   - DQMOffline/RecoB
   - RecoBTag/SoftLepton
   reco_category: 'HI'
-  title: Use akCs4PFJets for candidate-based tagInfos for HI workflows `analysis`  `dqm`  `reconstruction`
+  title: Use akCs4PFJets for candidate-based tagInfos for HI workflows
 - author: '@mandrenguyen'
   number: '31668'
   packages:
@@ -291,7 +287,7 @@
   - RecoJets/Configuration
   - Configuration/StandardSequences
   reco_category: 'HI'
-  title: Bad PF candidate filter for 2018 PbPb data `analysis`  `operations`  `pdmv`  `reconstruction`  `upgrade`
+  title: Bad PF candidate filter for 2018 PbPb data
 - author: '@mandrenguyen'
   number: '31660'
   packages:
@@ -299,32 +295,32 @@
   - RecoBTag/SecondaryVertex
   - RecoBTag/Combined
   reco_category: 'HI'
-  title: Legacy csvV2 calibrations for 2018 PbPb data `analysis`  `reconstruction`
+  title: Legacy csvV2 calibrations for 2018 PbPb data
 - author: '@namapane'
   number: '31651'
   packages:
   - MagneticField/Engine
   reco_category: 'GEOM'
-  title: MF regression IB tests `reconstruction`
+  title: MF regression IB tests
 - author: '@namapane'
   number: '31649'
   packages:
   - MagneticField/GeomBuilder
   reco_category: 'GEOM'
-  title: Remove dependency from DDCMS/interface/DDShapes.h `reconstruction`
+  title: Remove dependency from DDCMS/interface/DDShapes.h
 - author: '@stahlleiton'
   number: '31646'
   packages:
   - PhysicsTools/PatAlgos
   reco_category: 'HI'
-  title: Bugfix for PackedCandidateMuonSelectorProducer (HI re-miniAOD) `analysis`  `reconstruction`
+  title: Bugfix for PackedCandidateMuonSelectorProducer
 - author: '@andrzejnovak'
   number: '31618'
   packages:
   - PhysicsTools/PatAlgos
   - PhysicsTools/NanoAOD
   reco_category: 'XPOG'
-  title: 'feat: switch to DDXv2 as baseline `analysis`  `reconstruction`  `xpog`'
+  title: switch to DDXv2 as baseline
 - author: '@denerslemos'
   number: '31602'
   packages:
@@ -332,15 +328,13 @@
   - DataFormats/HeavyIonEvent
   - RecoHI/HiCentralityAlgos
   reco_category: 'XPOG'
-  title: Include the HF filters used in heavy ions using struct in the MiniAOD content
-    `analysis`  `reconstruction`
+  title: Include the HF filters in MiniAOD
 - author: '@cms-tau-pog'
   number: '31582'
   packages:
   - RecoTauTag/RecoTau
   reco_category: 'TAU'
-  title: Protect against ill-defined track momenta and reffited tau vertices for tauReco@mini
-    `reconstruction`
+  title: Protect against ill-defined track momenta and reffited tau vertices in MINIAOD
 - author: '@ghugo83'
   number: '31573'
   packages:
@@ -352,14 +346,14 @@
   - Geometry/TrackerNumberingBuilder
   - RecoTracker/TkDetLayers
   reco_category: 'GEOM'
-  title: 'DD4hep: Introduces functional Tracker navigation + DetIds building `db`  `geometry`  `reconstruction`  `simulation`  `upgrade`'
+  title: functional Tracker navigation, DetIds building
 - author: '@swertz'
   number: '31495'
   packages:
   - PhysicsTools/PatAlgos
   - PhysicsTools/NanoAOD
   reco_category: 'XPOG'
-  title: 'nanoAOD: fix electron IP sign `analysis`  `reconstruction`  `xpog`'
+  title: electron IP sign in nanoAOD
 - author: '@cms-tau-pog'
   number: '31470'
   packages:
@@ -368,15 +362,14 @@
   - CommonTools/RecoAlgos
   - RecoTauTag/RecoTau
   reco_category: 'TAU'
-  title: Add anti-electron tauID for phase2 `analysis`  `reconstruction`  `upgrade`
+  title: Add anti-electron tauID for phase2
 - author: '@guitargeek'
   number: '31378'
   packages:
   - PhysicsTools/PatAlgos
   - PhysicsTools/NanoAOD
   reco_category: 'general'
-  title: Move PhysicsTools/PatAlgos/plugins/BaseMVAValueMapProducer.h to interface/
-    `analysis`  `reconstruction`  `xpog`
+  title: Move BaseMVAValueMapProducer.h
 - author: '@JanFSchulte'
   number: '31314'
   packages:
@@ -400,7 +393,7 @@
   - RecoTracker/TkDetLayers
   - RecoTracker/TransientTrackingRecHit
   reco_category: 'TRK'
-  title: Integrating VectorHits reconstruction for the Phase2 OT - reprise  `geometry`  `operations`  `pdmv`  `reconstruction`  `simulation`  `upgrade`
+  title: Integrating VectorHits reconstruction for the Phase2 OT
 - author: '@watson-ij'
   number: '31309'
   packages:
@@ -421,7 +414,7 @@
   - DQMOffline/Muon
   - Configuration/StandardSequences
   reco_category: 'GEM'
-  title: Initial Changes for Incoporating GEM GE0 into the Reco Pipeline `dqm`  `l1`  `operations`  `reconstruction`  `simulation`  `upgrade`
+  title: Initial Changes for Incoporating GEM GE0 into the Reco Pipeline
 - author: '@mandrenguyen'
   number: '30898'
   packages:
@@ -433,5 +426,4 @@
   - RecoHI/HiTracking
   - RecoJets/Configuration
   reco_category: 'HI'
-  title: Switch to heavy-ion jets in HI miniAOD `analysis`  `reconstruction`
-
+  title: Switch to heavy-ion jets in HI miniAOD

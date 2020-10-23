@@ -13,11 +13,11 @@ mkdir -p $PR
 cd $PR
 
 #run the reference
-scram p -n orig CMSSW $CMSSW
-cd orig
-eval `scramv1 runtime -sh`
-runTheMatrix.py -l $WORKFLOW --command="-n $NUMEVENTS --nThreads $THREADS"
-cd ..
+#scram p -n orig CMSSW $CMSSW
+#cd orig
+#eval `scramv1 runtime -sh`
+#runTheMatrix.py -l $WORKFLOW --command="-n $NUMEVENTS --nThreads $THREADS"
+#cd ..
 
 #get the PR, compile
 scram p -n new CMSSW $CMSSW
