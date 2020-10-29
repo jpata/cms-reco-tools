@@ -30,7 +30,7 @@
   - CondFormats/GEMObjects
   - DataFormats/GEMDigi
   - EventFilter/GEMRawToDigi
-  reco_category: 'general'
+  reco_category: 'GEM'
   title: GEM unpacker bugfix
 - author: '@slava77'
   number: '31844'
@@ -113,7 +113,7 @@
   - CondTools/SiPixel
   - Validation/SiTrackerPhase2V
   - CalibTracker/SiPixelQuality
-  reco_category: 'TRK'
+  reco_category: 'general'
   title: Move from MagneticField_AutoFromDBCurrent_cff to MagneticField
 - author: '@jeongeun'
   number: '31784'
@@ -131,12 +131,6 @@
   reco_category: 'general'
   title: Clean up a few dead assignments from HcalAlgos and TrackingTools
     `alca`  `reconstruction`
-- author: '@christopheralanwest'
-  number: '31780'
-  packages:
-  - Configuration/AlCa
-  reco_category: 'ALCA'
-  title: Remove obsolete records
 - author: '@makortel'
   number: '31779'
   packages:
