@@ -1,0 +1,93 @@
+- title: 'Backport of #31831 (Add maximum of pileup pT hats in JME custom NanoAOD)
+    to 10_6_X'
+  author: nurfikri89
+  number: 31872
+  packages:
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: Add ntracks associated to each SV
+  author: gouskos
+  number: 31825
+  packages:
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: nanoAOD, fix electron IP sign
+  author: swertz
+  number: 31805
+  packages:
+  - PhysicsTools/PatAlgos
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: ''
+  author: christopheralanwest
+  number: 31702
+  packages:
+  - Configuration/AlCa
+  state: MERGED
+  reco_category: ''
+
+- title: 'static const -> const for thread safety in DeepMETProducer,,produce variable
+    (bp of #31738)'
+  author: slava77
+  number: 31740
+  packages:
+  - RecoMET/METPUSubtraction
+  state: MERGED
+  reco_category: ''
+
+- title: ParticleNetAK4 jet tagger
+  author: hqucms
+  number: 31615
+  packages:
+  - RecoBTag/FeatureTools
+  - PhysicsTools/PatAlgos
+  - RecoBTag/Configuration
+  - RecoBTag/ONNXRuntime
+  state: MERGED
+  reco_category: ''
+
+- title: Backport of code changes to 106X for PR 30922 , Enabling re-application of
+    Type1 Corrections for PuppiMET and adding PUPPI MET Uncertainties
+  author: saghosh
+  number: 31638
+  packages:
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: 'Backport of #30306, #31591, and  #31973, NanoGen support in 10_6_X'
+  author: kdlong
+  number: 31909
+  packages:
+  - PhysicsTools/NanoAOD
+  - Configuration/PyReleaseValidation
+  - Configuration/Applications
+  - DQMOffline/Configuration
+  - Configuration/Generator
+  state: OPEN
+  reco_category: ''
+
+- title: 'DDXv2 and BTV changes in Nano #31618, #31786'
+  author: andrzejnovak
+  number: 31847
+  packages:
+  - PhysicsTools/PatAlgos
+  - RecoBTag/ONNXRuntime
+  - PhysicsTools/NanoAOD
+  state: OPEN
+  reco_category: ''
+
+- title: Add ParticleNetAK4 to JME custom NanoAOD.
+  author: hqucms
+  number: 31717
+  packages:
+  - PhysicsTools/NanoAOD
+  state: OPEN
+  reco_category: ''
+

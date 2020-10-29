@@ -113,7 +113,7 @@ def compare_histograms(fname1, fname2, histname):
         m1 = hist1.GetMean()
         m2 = hist2.GetMean()
         ks = hist2.KolmogorovTest(hist1)
-        plot_name = "{}.pdf".format(sanitize_name(histname))
+        plot_name = "{}.png".format(sanitize_name(histname))
         ret = (histname, {
             "name": histname,
             "equal": False,
@@ -169,6 +169,8 @@ if __name__ == "__main__":
     args = parse_args()
 
     histograms = get_file_histograms(args.fn_ref)
+    for hist in histograms:
+        print(hist)
     histograms = filter_histograms_require(histograms, args.require)
     histograms = filter_histograms_skip(histograms, args.skip)
 

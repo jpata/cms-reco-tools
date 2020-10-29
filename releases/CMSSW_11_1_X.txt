@@ -1,0 +1,152 @@
+- title: Pr 111 x Displaced muon in BMTF and uGMT ( unpacker/emulator/packer)
+  author: rekovic
+  number: 31679
+  packages:
+  - EventFilter/L1TRawToDigi
+  - L1Trigger/L1TNtuples
+  - DataFormats/L1TMuon
+  - L1Trigger/L1TMuon
+  - DataFormats/L1Trigger
+  - L1Trigger/L1TMuonBarrel
+  - L1Trigger/Configuration
+  - DQM/L1TMonitor
+  state: MERGED
+  reco_category: ''
+
+- title: use smart pointers in SiStripClassToMonitorCondData
+  author: mmusich
+  number: 31923
+  packages:
+  - DQM/SiStripMonitorSummary
+  state: MERGED
+  reco_category: ''
+
+- title: GEM unpacker, crash protection from bad FEDs
+  author: jshlee
+  number: 31928
+  packages:
+  - EventFilter/GEMRawToDigi
+  state: MERGED
+  reco_category: ''
+
+- title: Switching HGCal electrons and photons to TICL-based reconstruction
+  author: SohamBhattacharya
+  number: 31766
+  packages:
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoParticleFlow/PFClusterProducer
+  - RecoEgamma/EgammaElectronProducers
+  state: MERGED
+  reco_category: ''
+
+- title: ''
+  author: kpedro88
+  number: 31099
+  packages:
+  - L1Trigger/L1TTrackMatch
+  state: MERGED
+  reco_category: ''
+
+- title: Add GEM offline DQM, backport to 11_1_X
+  author: seungjin-yang
+  number: 31819
+  packages:
+  - DQMOffline/Configuration
+  - DQMOffline/Muon
+  state: MERGED
+  reco_category: ''
+
+- title: 'static const -> const for thread safety in DeepMETProducer,,produce variable
+    (bp of #31738)'
+  author: slava77
+  number: 31741
+  packages:
+  - RecoMET/METPUSubtraction
+  state: MERGED
+  reco_category: ''
+
+- title: backporting of updated online BS fake client configuration
+  author: gennai
+  number: 31976
+  packages:
+  - DQM/Integration
+  state: OPEN
+  reco_category: ''
+
+- title: DAQ backport (11_1_X)
+  author: smorovic
+  number: 31964
+  packages:
+  - IOPool/Streamer
+  - EventFilter/Utilities
+  state: OPEN
+  reco_category: ''
+
+- title: online Beamspot monitor DQM client (backporting of PR 31904)
+  author: gennai
+  number: 31924
+  packages:
+  - DQM/Integration
+  - DQM/BeamMonitor
+  state: OPEN
+  reco_category: ''
+
+- title: TICL reconstruction update
+  author: rovere
+  number: 31907
+  packages:
+  - RecoHGCal/TICL
+  - RecoParticleFlow/PFClusterProducer
+  - Validation/HGCalValidation
+  - RecoLocalCalo/HGCalRecAlgos
+  - DataFormats/HGCalReco
+  - RecoEgamma/EgammaTools
+  - RecoHGCal/Configuration
+  - RecoLocalCalo/HGCalRecProducers
+  state: OPEN
+  reco_category: ''
+
+- title: L1T Phase2 PFJet a la Phase1 (11_1_X)
+  author: rekovic
+  number: 31607
+  packages:
+  - L1Trigger/L1CaloTrigger
+  - L1Trigger/Configuration
+  state: OPEN
+  reco_category: ''
+
+- title: L1T Phase2 NN Tau (11_1_X)
+  author: rekovic
+  number: 31600
+  packages:
+  - L1Trigger/Phase2L1ParticleFlow
+  - L1Trigger/Configuration
+  state: OPEN
+  reco_category: ''
+
+- title: ''
+  author: ahinzmann
+  number: 31494
+  packages:
+  - CommonTools/PileupAlgos
+  state: OPEN
+  reco_category: ''
+
+- title: Baseline tracking (v6.1) for HLT-Phase2-TDR
+  author: trtomei
+  number: 31218
+  packages:
+  - HLTrigger/Configuration
+  state: OPEN
+  reco_category: ''
+
+- title: Enable L1Tracks in L1T DQM (backport)
+  author: emacdonald16
+  number: 30832
+  packages:
+  - Validation/SiOuterTrackerV
+  - Configuration/EventContent
+  - DQM/SiOuterTracker
+  state: DRAFT
+  reco_category: ''
+

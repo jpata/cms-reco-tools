@@ -1,0 +1,354 @@
+- title: Add record type HeavyIonRPRcd to 2021 HI global tag
+  author: christopheralanwest
+  number: 31957
+  packages:
+  - Configuration/AlCa
+  - Configuration/PyReleaseValidation
+  state: MERGED
+  reco_category: ''
+
+- title: Convert Reflections via TGeo Reflection Factory
+  author: ianna
+  number: 31970
+  packages:
+  - DetectorDescription/DDCMS
+  state: MERGED
+  reco_category: ''
+
+- title: GPUcaloCommon, fix parentheses
+  author: mariadalfonso
+  number: 31972
+  packages:
+  - DataFormats/CaloRecHit
+  state: MERGED
+  reco_category: ''
+
+- title: Adding vertex recovery step for 2018 heavy ion miniAOD production.
+  author: abaty
+  number: 31676
+  packages:
+  - RecoHI/HiTracking
+  - PhysicsTools/PatAlgos
+  - RecoVertex/PrimaryVertexProducer
+  state: MERGED
+  reco_category: ''
+
+- title: Mini-PR, Fix EcalBaseNumber,,getCopyNumber behavior
+  author: ghugo83
+  number: 31963
+  packages:
+  - Geometry/EcalCommonData
+  - SimG4CMS/Calo
+  state: MERGED
+  reco_category: ''
+
+- title: Store EW parameter weights in NanoAOD of W mass samples
+  author: kdlong
+  number: 31939
+  packages:
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: make VertexException inherit from cms,,Exception
+  author: slava77
+  number: 31961
+  packages:
+  - RecoVertex/VertexPrimitives
+  state: MERGED
+  reco_category: ''
+
+- title: Run3 -hcx268 Code to check the HCAL sensitive touchables are identical for
+    DDD/DD4Hep
+  author: bsunanda
+  number: 31950
+  packages:
+  - SimG4Core/Application
+  - SimG4CMS/Calo
+  state: MERGED
+  reco_category: ''
+
+- title: Migrate EcalClusterLazyTools to use ESGetToken
+  author: guitargeek
+  number: 31892
+  packages:
+  - RecoEgamma/EgammaElectronProducers
+  - RecoEgamma/PhotonIdentification
+  - RecoEgamma/EgammaPhotonAlgos
+  - RecoHI/HiEgammaAlgos
+  - Validation/EcalClusters
+  - RecoEgamma/EgammaPhotonProducers
+  - RecoEgamma/ElectronIdentification
+  - RecoParticleFlow/PFClusterProducer
+  - phi geometry,
+  - PhysicsTools/PatAlgos
+  - EgammaAnalysis/ElectronTools
+  - RecoEgamma/EgammaHLTProducers
+  - RecoEcal/EgammaCoreTools
+  - RecoEgamma/EgammaTools
+  - DQM/Physics
+  state: MERGED
+  reco_category: ''
+
+- title: jetNDauChargedMVASel for nanoAOD electrons & muons for topMVA inputs
+  author: schoef
+  number: 31944
+  packages:
+  - PhysicsTools/NanoAOD
+  state: MERGED
+  reco_category: ''
+
+- title: Make Alignment/OfflineValidation unit test less brittle
+  author: mmusich
+  number: 31901
+  packages:
+  - Alignment/OfflineValidation
+  state: MERGED
+  reco_category: ''
+
+- title: added a new client to monitor the beamspot choice at HLT
+  author: gennai
+  number: 31904
+  packages:
+  - DQM/Integration
+  - DQM/BeamMonitor
+  state: MERGED
+  reco_category: ''
+
+- title: Run3 hcx267 Add a new method to HcalGeometry to get position from id packed
+    using TestNumbering
+  author: bsunanda
+  number: 31941
+  packages:
+  - Geometry/HcalTowerAlgo
+  - SimG4CMS/Calo
+  state: MERGED
+  reco_category: ''
+
+- title: Run3-gex29 Restore the older dd4hep algo for preshower
+  author: bsunanda
+  number: 31960
+  packages:
+  - Geometry/EcalCommonData
+  state: MERGED
+  reco_category: ''
+
+- title: No Namespace in MuonG4Numbering nor in Tracker SD
+  author: ianna
+  number: 31949
+  packages:
+  - SimG4CMS/Muon
+  - SimG4CMS/Tracker
+  state: MERGED
+  reco_category: ''
+
+- title: Sync puppi tune for phase2 with run3
+  author: ahinzmann
+  number: 31887
+  packages:
+  - CommonTools/PileupAlgos
+  state: MERGED
+  reco_category: ''
+
+- title: add missing includes
+  author: davidlange6
+  number: 31932
+  packages:
+  - DataFormats/FTLRecHit
+  - RecoTracker/TkSeedGenerator
+  - DataFormats/CaloRecHit
+  state: MERGED
+  reco_category: ''
+
+- title: Automated Comparison of TrackerParameters DD vs DD4hep
+  author: ianna
+  number: 31942
+  packages:
+  - DetectorDescription/DDCMS
+  - Geometry/TrackerGeometryBuilder
+  state: MERGED
+  reco_category: ''
+
+- title: Remove duplicate dependency from L1Trigger/CSCTriggerPrimitives BuildFile.xml
+  author: fwyzard
+  number: 31877
+  packages:
+  - L1Trigger/CSCTriggerPrimitives
+  state: MERGED
+  reco_category: ''
+
+- title: Add explicit fallthrough attribute to fix gcc9 warnings
+  author: smuzaffar
+  number: 31828
+  packages:
+  - CondFormats/L1TObjects
+  state: MERGED
+  reco_category: ''
+
+- title: Add a few code optimizations in the TrackDetectorAssociator
+  author: perrotta
+  number: 31917
+  packages:
+  - Calibration/HcalCalibAlgos
+  - TrackingTools/TrackAssociator
+  state: MERGED
+  reco_category: ''
+
+- title: add tcdsDigis to pixel online DQM client paths and migrate to MagneticField_cff
+  author: mmusich
+  number: 31938
+  packages:
+  - DQM/Integration
+  state: MERGED
+  reco_category: ''
+
+- title: Phase2-hgx265 Attempt to make CMSSW geometry compatible with flat geometry
+  author: bsunanda
+  number: 31867
+  packages:
+  - Geometry/HGCalCommonData
+  state: MERGED
+  reco_category: ''
+
+- title: Run4-hgx266 Update some of the validation codes for ESGetToken
+  author: bsunanda
+  number: 31937
+  packages:
+  - Validation/HGCalValidation
+  state: MERGED
+  reco_category: ''
+
+- title: HeavyIon Reaction Plane MiniAOD
+  author: BetterWang
+  number: 31129
+  packages:
+  - RecoHI/HiEvtPlaneAlgos
+  - PhysicsTools/PatAlgos
+  - DQM/Physics
+  state: MERGED
+  reco_category: ''
+
+- title: Switch payloads of new phase 2 tau ID to GT
+  author: swozniewski
+  number: 31866
+  packages:
+  - RecoTauTag/Configuration
+  - Configuration/AlCa
+  - RecoTauTag/RecoTau
+  state: MERGED
+  reco_category: ''
+
+- title: do not use namespace for navigation
+  author: ianna
+  number: 31934
+  packages:
+  - DetectorDescription/DDCMS
+  - Geometry/MTDNumberingBuilder
+  state: MERGED
+  reco_category: ''
+
+- title: Phase2-gex27 First step to use dd4hep for a phase2 scenario
+  author: bsunanda
+  number: 31902
+  packages:
+  - SimG4Core/Configuration
+  - Geometry/MuonNumbering
+  - Configuration/Geometry
+  state: MERGED
+  reco_category: ''
+
+- title: Phase2-gex28 Add a new cff for simulation - useful for dd4hep
+  author: bsunanda
+  number: 31929
+  packages:
+  - Configuration/Geometry
+  state: MERGED
+  reco_category: ''
+
+- title: Run3-gex28 Take care of namespace issue for EB numbering in dd4hep
+  author: bsunanda
+  number: 31931
+  packages:
+  - SimG4CMS/Calo
+  state: MERGED
+  reco_category: ''
+
+- title: Reintroduce Namespace
+  author: ianna
+  number: 31886
+  packages:
+  - Geometry/MTDCommonData
+  - DetectorDescription/DDCMS
+  - Geometry/TrackerCommonData
+  state: MERGED
+  reco_category: ''
+
+- title: MTD geometry, DD4hep specPar update, additional fix
+  author: fabiocos
+  number: 31921
+  packages:
+  - Geometry/MTDNumberingBuilder
+  state: MERGED
+  reco_category: ''
+
+- title: Read SLHA from TTree
+  author: kpedro88
+  number: 31733
+  packages:
+  - GeneratorInterface/Pythia8Interface
+  state: MERGED
+  reco_category: ''
+
+- title: fixed cmsLHEtoEOSManager and added unit test to test it
+  author: smuzaffar
+  number: 31922
+  packages:
+  - GeneratorInterface/LHEInterface
+  state: MERGED
+  reco_category: ''
+
+- title: Add script to access gridpacks with xrdcp for ExternalLHEProducer
+  author: kdlong
+  number: 31911
+  packages:
+  - GeneratorInterface/LHEInterface
+  state: MERGED
+  reco_category: ''
+
+- title: Run3-gex27 Add a facility to dump information of all touchables of ECAL to
+    compare between DDD and DD4Hep
+  author: bsunanda
+  number: 31913
+  packages:
+  - SimG4Core/Application
+  - SimG4CMS/Calo
+  state: MERGED
+  reco_category: ''
+
+- title: Update of the Scenario 2021 after that the Muon Subtraction Solids have been
+    fixed
+  author: slomeo
+  number: 31918
+  packages:
+  - Geometry/CMSCommonData
+  - Configuration/Geometry
+  state: MERGED
+  reco_category: ''
+
+- title: use smart pointers in SiStripClassToMonitorCondData
+  author: mmusich
+  number: 31916
+  packages:
+  - DQM/SiStripMonitorSummary
+  state: MERGED
+  reco_category: ''
+
+- title: Close Geometry and Use Regex for Production Cuts Selection
+  author: ianna
+  number: 31915
+  packages:
+  - Geometry/CMSCommonData
+  - SimG4Core/Geometry
+  state: MERGED
+  reco_category: ''
+
