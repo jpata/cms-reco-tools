@@ -1,0 +1,34 @@
+- author: '@smorovic'
+  number: '31964'
+  packages:
+  - IOPool/Streamer
+  - EventFilter/Utilities
+  reco_category: 'DAQ'
+  title: DAQ backport
+- author: '@jshlee'
+  number: '31928'
+  packages:
+  - EventFilter/GEMRawToDigi
+  reco_category: 'GEM'
+  title: GEM unpacker crash protection from bad FEDs
+- author: '@SohamBhattacharya'
+  number: '31766'
+  packages:
+  - RecoEgamma/EgammaElectronProducers
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoParticleFlow/PFClusterProducer
+  reco_category: 'EGM'
+  title: Switching HGCal electrons and photons to TICL-based reconstruction
+- author: '@slava77'
+  number: '31741'
+  packages:
+  - RecoMET/METPUSubtraction
+  reco_category: 'JME'
+  title: thread safety in DeepMETProducer
+- author: '@ahinzmann'
+  number: '31494'
+  packages:
+  - CommonTools/PileupAlgos
+  reco_category: 'JME'
+  title: Adapt track-vertex association in PUPPI (v15)
+
