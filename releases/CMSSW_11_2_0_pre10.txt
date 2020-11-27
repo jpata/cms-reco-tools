@@ -1,0 +1,162 @@
+- author: '@perrotta'
+  number: '32236'
+  packages:
+  - RecoParticleFlow/PFClusterProducer
+  reco_category: 'PF'
+  title: update to PFClusterFromHGCalMultiCluster
+- author: '@Dr15Jones'
+  number: '32233'
+  packages:
+  - MagneticField/GeomBuilder
+  - MagneticField/Engine
+  reco_category: 'general'
+  title: MagneticField to new MessageLogger
+- author: '@Dr15Jones'
+  number: '32231'
+  packages:
+  - JetMETCorrections/Modules
+  reco_category: 'general'
+  title: JetMETCorrections to new MessageLogger
+- author: '@Dr15Jones'
+  number: '32225'
+  packages:
+  - EventFilter/EcalRawToDigi
+  - EventFilter/Utilities
+  - EventFilter/L1TRawToDigi
+  - EventFilter/L1GlobalTriggerRawToDigi
+  - EventFilter/CTPPSRawToDigi
+  - EventFilter/RPCRawToDigi
+  - EventFilter/SiPixelRawToDigi
+  reco_category: 'general'
+  title: EventFilter to new MessageLogger
+- author: '@Dr15Jones'
+  number: '32210'
+  packages:
+  - Configuration/EcalTB
+  reco_category: 'general'
+  title: Configuration to new MessageLogger
+- author: '@Dr15Jones'
+  number: '32199'
+  packages:
+  - TrackPropagation/RungeKutta
+  reco_category: 'general'
+  title: TrackPropagation to new MessageLogger
+- author: '@guitargeek'
+  number: '32183'
+  packages:
+  - RecoEgamma/EgammaElectronAlgos
+  reco_category: 'general'
+  title: RegressionHelper in EgammaElectronAlgos to ESGetTokens
+- author: '@stepobr'
+  number: '32158'
+  packages:
+  - RecoHI/HiJetAlgos
+  - RecoJets/JetProducers
+  reco_category: 'HI'
+  title: CSJetProducer bug fix for flow modulation
+- author: '@mariadalfonso'
+  number: '32146'
+  packages:
+  - RecoLocalCalo/HcalRecAlgos
+  reco_category: 'HCAL'
+  title: deal with negative/null TS in HBHE
+- author: '@mariadalfonso'
+  number: '32144'
+  packages:
+  - DataFormats/CaloRecHit
+  reco_category: 'Patatrack'
+  title: GPU refactor common code from ECAL multifit and HCAL mahi
+- author: '@smuzaffar'
+  number: '32131'
+  packages:
+  - PhysicsTools/TensorFlow
+  reco_category: 'general'
+  title: Fix needed for tensorflow 2.3.1
+- author: '@cms-patatrack'
+  number: '32122'
+  packages:
+  - HeterogeneousCore/CUDACore
+  reco_category: 'Patatrack'
+  title: Add an infinite-IOV record for GPU modules configuration
+- author: '@smorovic'
+  number: '32116'
+  packages:
+  - EventFilter/Utilities
+  - IOPool/Streamer
+  reco_category: 'DAQ'
+  title: fix FedRawData source going out of array boundaries
+- author: '@thomreis'
+  number: '32066'
+  packages:
+  - RecoEcal/EgammaClusterProducers
+  - CondFormats/DataRecord
+  - CondFormats/EcalObjects
+  - CondCore/EcalPlugins
+  - RecoParticleFlow/PFProducer
+  - CondTools/Ecal
+  - RecoEcal/EgammaCoreTools
+  - RecoEcal/EgammaClusterAlgos
+  - HLTrigger/Configuration
+  reco_category: 'ECAL'
+  title: ECAL SC parameters to EventSetup
+- author: '@nvoytish'
+  number: '32052'
+  packages:
+  - RecoLocalMuon/CSCRecHitD
+  reco_category: 'MUO'
+  title: CSC RecHit Builder updates
+- author: '@lecriste'
+  number: '32046'
+  packages:
+  - RecoHGCal/TICL
+  - DataFormats/HGCalReco
+  reco_category: 'TICL'
+  title: Propagate timing to PF TICL Candidates
+- author: '@leonardogiannini'
+  number: '31988'
+  packages:
+  - PhysicsTools/PatAlgos
+  - RecoBTag/ONNXRuntime
+  - RecoBTag/TensorFlow
+  reco_category: 'BTV'
+  title: DeepVertex and DeepJet+DeepVertex ONNX
+- author: '@pieterdavid'
+  number: '31826'
+  packages:
+  - CondTools/SiStrip
+  - DQM/SiStripMonitorHardware
+  - RecoLocalTracker/SiStripZeroSuppression
+  - CalibTracker/SiStripLorentzAngle
+  - CalibTracker/SiStripChannelGain
+  - CalibTracker/SiStripDCS
+  - CalibTracker/SiStripCommon
+  - DQMOffline/CalibTracker
+  - RecoLocalTracker/SiStripClusterizer
+  - CalibTracker/SiStripQuality
+  - AnalysisAlgos/SiStripClusterInfoProducer
+  - SiStripDetInfo.dat"))}
+  - EventFilter/SiStripChannelChargeFilter
+  - EventFilter/SiStripRawToDigi
+  - CalibTracker/SiStripESProducers
+  - DPGAnalysis/SiStripTools
+  reco_category: 'general'
+  title: esConsumes migration for EDModules in SiStrip packages, part 1
+- author: '@cms-tau-pog'
+  number: '31744'
+  packages:
+  - RecoTauTag/RecoTau
+  - RecoTauTag/HLTProducers
+  reco_category: 'TAU'
+  title: DeepTauID modules can process RECO input for HLT purposes
+- author: '@hyunyong'
+  number: '31640'
+  packages:
+  - RecoLocalMuon/GEMRecHit
+  - Geometry/GEMGeometry
+  - Geometry/CommonTopologies
+  - Geometry/GEMGeometryBuilder
+  - SimMuon/GEMDigitizer
+  - Fireworks/Geometry
+  reco_category: 'GEM'
+  title: GEM uniform angular strip topology
+

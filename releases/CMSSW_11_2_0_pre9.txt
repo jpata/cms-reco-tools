@@ -1,0 +1,310 @@
+- author: '@felicepantaleo'
+  number: '32061'
+  packages:
+  - RecoHGCal/TICL
+  reco_category: ''
+  title: '[HGCal - TICL] Remove unused code `reconstruction`  `upgrade`'
+- author: '@slava77'
+  number: '32053'
+  packages:
+  - RecoEgamma/EgammaTools
+  reco_category: ''
+  title: 'speedup: switch EgammaTools EnergyScaleCorrection scales and smearings to
+    use std::map `reconstruction`'
+- author: '@mandrenguyen'
+  number: '32037'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: ''
+  title: Add cluster compatibility filter to HI miniAOD `analysis`  `reconstruction`
+- author: '@jeongeun'
+  number: '32031'
+  packages:
+  - RecoHI/HiMuonAlgos
+  - RecoJets/JetProducers
+  - RecoHI/HiJetAlgos
+  - RecoHI/HiEgammaAlgos
+  reco_category: ''
+  title: drop type specs in RecoHI {HiEgammaAlgos,HiJetAlgos,HiMuonAlgos} `reconstruction`
+- author: '@guitargeek'
+  number: '32030'
+  packages:
+  - RecoTracker/MeasurementDet
+  - GeneratorInterface/GenFilters
+  - RecoEgamma/EgammaIsolationAlgos
+  - GeneratorInterface/GenExtensions
+  - RecoLocalTracker/SiPhase2VectorHitBuilder
+  - SimG4CMS/Muon
+  reco_category: ''
+  title: Clean BuildFiles in GeneratorInterface etc `generators`  `reconstruction`  `simulation`  `upgrade`
+- author: '@perrotta'
+  number: '32029'
+  packages:
+  - RecoMuon/DetLayers
+  reco_category: ''
+  title: Replace mirrored finders in RecoMuon from TrackingTools/DetLayer with the
+    original ones `reconstruction`
+- author: '@gartung'
+  number: '32028'
+  packages:
+  - RecoVertex/PrimaryVertexProducer
+  reco_category: ''
+  title: 'RecoVertex/PrimaryVertexProducer: fix heap buffer overflow found by ASAN.
+    `reconstruction`'
+- author: '@fabiocos'
+  number: '32026'
+  packages:
+  - RecoMTD/DetLayers
+  - Geometry/MTDNumberingBuilder
+  reco_category: ''
+  title: 'MTD geometry and reco: code cleaning `geometry`  `reconstruction`  `upgrade`'
+- author: '@amartelli'
+  number: '32022'
+  packages:
+  - RecoLocalCalo/HGCalRecProducers
+  reco_category: ''
+  title: 'HGCAL: restore distance cut in CLUE position calculation `reconstruction`  `upgrade`'
+- author: '@apsallid'
+  number: '32021'
+  packages:
+  - RecoLocalCalo/HGCalRecProducers
+  reco_category: ''
+  title: '[HGCAL] Corrections in noise vector in CLUE `reconstruction`  `upgrade`'
+- author: '@guitargeek'
+  number: '31999'
+  packages:
+  - RecoEgamma/EgammaTools
+  - PhysicsTools/PatAlgos
+  reco_category: ''
+  title: Use ESGetTokens in Egamma regression tools `analysis`  `reconstruction`
+- author: '@mariadalfonso'
+  number: '31972'
+  packages:
+  - DataFormats/CaloRecHit
+  reco_category: ''
+  title: 'GPUcaloCommon: fix parentheses `reconstruction`'
+- author: '@mandrenguyen'
+  number: '31971'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: ''
+  title: add ZDC Digis to HI miniAOD `analysis`  `reconstruction`
+- author: '@slava77'
+  number: '31961'
+  packages:
+  - RecoVertex/VertexPrimitives
+  reco_category: ''
+  title: make VertexException inherit from cms::Exception `reconstruction`
+- author: '@christopheralanwest'
+  number: '31957'
+  packages:
+  - Configuration/AlCa
+  - Configuration/PyReleaseValidation
+  reco_category: ''
+  title: Add record type HeavyIonRPRcd to 2021 HI global tag `alca`  `pdmv`  `upgrade`
+- author: '@jainshilpi'
+  number: '31936'
+  packages:
+  - RecoEgamma/EgammaTools
+  reco_category: ''
+  title: UL2018 scale and smearing added `reconstruction`
+- author: '@mandrenguyen'
+  number: '31935'
+  packages:
+  - DQMOffline/EGamma
+  - TrackingTools/GsfTracking
+  - Calibration/HcalAlCaRecoProducers
+  - RecoEgamma/EgammaIsolationAlgos
+  - RecoJets/Configuration
+  - Calibration/TkAlCaRecoProducers
+  - RecoMuon/MuonIdentification
+  - DQMOffline/RecoB
+  - RecoVertex/PrimaryVertexProducer
+  - Validation/Configuration
+  - RecoEcal/Configuration
+  - HLTriggerOffline/B2G
+  - CalibMuon/DTCalibration
+  - RecoEgamma/Configuration
+  - RecoLocalCalo/Configuration
+  - RecoParticleFlow/PFTracking
+  - RecoBTag/SecondaryVertex
+  - DQMOffline/JetMET
+  - DQM/SiStripMonitorClient
+  - RecoEcal/EgammaClusterProducers
+  - RecoTracker/IterativeTracking
+  - RecoPixelVertexing/PixelTriplets
+  - Configuration/ProcessModifiers
+  - RecoLocalCalo/HcalRecProducers
+  - RecoTauTag/Configuration
+  - RecoEgamma/EgammaTools
+  - Configuration/EventContent
+  - DQM/TrackingMonitorSource
+  - SimCalorimetry/HcalTrigPrimProducers
+  - Configuration/StandardSequences
+  - RecoMET/Configuration
+  - RecoTracker/ConversionSeedGenerators
+  - PhysicsTools/PatAlgos
+  - RecoTracker/Configuration
+  - SimGeneral/Configuration
+  - DQMOffline/Trigger
+  - RecoTracker/TkTrackingRegions
+  - Alignment/CommonAlignmentProducer
+  - CalibTracker/SiPixelQuality
+  - DQM/TrackingMonitorClient
+  - RecoBTag/ImpactParameter
+  - RecoParticleFlow/Configuration
+  - RecoParticleFlow/PFProducer
+  - HLTriggerOffline/Common
+  - DQMOffline/Configuration
+  - RecoEgamma/EgammaElectronProducers
+  - RecoTracker/TkSeedGenerator
+  - RecoVertex/AdaptiveVertexFinder
+  - RecoHI/HiCentralityAlgos
+  - Validation/EcalClusters
+  - Configuration/Eras
+  - RecoJets/JetProducers
+  - RecoBTag/SoftLepton
+  - RecoJets/JetAssociationProducers
+  - RecoVertex/V0Producer
+  - DQM/Physics
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: ''
+  title: Common pp_on_AA modifier for 2018 and run 3 AA eras `alca`  `analysis`  `dqm`  `l1`  `operations`  `reconstruction`  `simulation`
+- author: '@davidlange6'
+  number: '31932'
+  packages:
+  - DataFormats/CaloRecHit
+  - RecoTracker/TkSeedGenerator
+  - DataFormats/FTLRecHit
+  reco_category: ''
+  title: add missing includes `reconstruction`  `upgrade`
+- author: '@Dr15Jones'
+  number: '31930'
+  packages:
+  - EventFilter/GEMRawToDigi
+  - DPGAnalysis/SiStripTools
+  - EventFilter/L1TRawToDigi
+  - FWCore/MessageService
+  - CalibTracker/SiStripDCS
+  - L1Trigger/L1TCalorimeter
+  - L1Trigger/L1TGlobal
+  - RecoMTD/DetLayers
+  - EventFilter/L1GlobalTriggerRawToDigi
+  reco_category: ''
+  title: Removed file based destinations from MessageLogger_cfi `alca`  `analysis`  `core`  `l1`  `reconstruction`  `upgrade`
+- author: '@alefisico'
+  number: '31927'
+  packages:
+  - PhysicsTools/NanoAOD
+  - PhysicsTools/PatUtils
+  reco_category: ''
+  title: PuppiMET with PUPPIv15 and UL17 PUID `analysis`  `reconstruction`  `xpog`
+- author: '@perrotta'
+  number: '31917'
+  packages:
+  - TrackingTools/TrackAssociator
+  - Calibration/HcalCalibAlgos
+  reco_category: ''
+  title: Add a few code optimizations in the TrackDetectorAssociator `alca`  `reconstruction`
+- author: '@mmusich'
+  number: '31908'
+  packages:
+  - RecoVertex/BeamSpotProducer
+  reco_category: ''
+  title: modernize configurations for reading / writing BeamSpot from DB, add unit
+    tests `alca`  `reconstruction`
+- author: '@felicepantaleo'
+  number: '31906'
+  packages:
+  - RecoParticleFlow/PFClusterProducer
+  - DataFormats/HGCalReco
+  - Validation/HGCalValidation
+  - RecoHGCal/TICL
+  - RecoHGCal/Configuration
+  reco_category: ''
+  title: '[HGCal] TICL v3 major upgrade `dqm`  `reconstruction`  `upgrade`'
+- author: '@mandrenguyen'
+  number: '31893'
+  packages:
+  - CommonTools/ParticleFlow
+  - CommonTools/PileupAlgos
+  - PhysicsTools/PatAlgos
+  - RecoBTag/ImpactParameter
+  - RecoTauTag/Configuration
+  reco_category: ''
+  title: Speed up HI miniAOD by removing unneeded features `analysis`  `reconstruction`
+- author: '@guitargeek'
+  number: '31892'
+  packages:
+  - RecoEgamma/EgammaTools
+  - RecoEgamma/EgammaElectronProducers
+  - EgammaAnalysis/ElectronTools
+  - RecoParticleFlow/PFClusterProducer
+  - Validation/EcalClusters
+  - phi geometry,
+  - RecoEgamma/ElectronIdentification
+  - RecoHI/HiEgammaAlgos
+  - RecoEgamma/EgammaHLTProducers
+  - RecoEgamma/PhotonIdentification
+  - DQM/Physics
+  - RecoEcal/EgammaCoreTools
+  - RecoEgamma/EgammaPhotonAlgos
+  - PhysicsTools/PatAlgos
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: ''
+  title: Migrate EcalClusterLazyTools to use ESGetToken `analysis`  `dqm`  `hlt`  `reconstruction`
+- author: '@ahinzmann'
+  number: '31887'
+  packages:
+  - CommonTools/PileupAlgos
+  reco_category: ''
+  title: Sync puppi tune for phase2 with run3 `analysis`  `reconstruction`
+- author: '@cms-tau-pog'
+  number: '31866'
+  packages:
+  - Configuration/AlCa
+  - RecoTauTag/Configuration
+  - RecoTauTag/RecoTau
+  reco_category: ''
+  title: Switch payloads of new phase 2 tau ID to GT `alca`  `reconstruction`  `upgrade`
+- author: '@rchatter'
+  number: '31823'
+  packages:
+  - RecoEcal/EgammaCoreTools
+  reco_category: ''
+  title: Updated parameters of the Mustache SC algorithm, optimized for Run 3 `reconstruction`
+- author: '@fabiocos'
+  number: '31765'
+  packages:
+  - RecoLocalFastTime/FTLClusterizer
+  - Configuration/PyReleaseValidation
+  - Configuration/Eras
+  - Configuration/StandardSequences
+  - RecoMTD/DetLayers
+  - RecoTracker/TkDetLayers
+  - Geometry/MTDCommonData
+  - Geometry/MTDGeometryBuilder
+  - RecoLocalFastTime/FTLRecProducers
+  - RecoMTD/Records
+  - SimFastTiming/FastTimingCommon
+  - Configuration/Geometry
+  reco_category: ''
+  title: 'MTD geometry/reconstruction: define new ETL reco layer geometry, update
+    LGAD pixel structure, activate workflows for scenarios D72 and D73 `geometry`  `operations`  `pdmv`  `reconstruction`  `simulation`  `upgrade`'
+- author: '@abaty'
+  number: '31676'
+  packages:
+  - RecoVertex/PrimaryVertexProducer
+  - RecoHI/HiTracking
+  - PhysicsTools/PatAlgos
+  reco_category: ''
+  title: Adding vertex recovery step for 2018 heavy ion miniAOD production. `analysis`  `reconstruction`
+- author: '@BetterWang'
+  number: '31129'
+  packages:
+  - PhysicsTools/PatAlgos
+  - RecoHI/HiEvtPlaneAlgos
+  - DQM/Physics
+  reco_category: ''
+  title: HeavyIon Reaction Plane MiniAOD `analysis`  `dqm`  `reconstruction`
+

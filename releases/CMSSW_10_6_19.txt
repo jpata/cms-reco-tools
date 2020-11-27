@@ -1,0 +1,43 @@
+- author: '@slava77'
+  number: '32055'
+  packages:
+  - RecoEgamma/EgammaTools
+  reco_category: 'EGM'
+  title: speedup of EgammaTools EnergyScaleCorrection scales and smearings
+- author: '@jainshilpi'
+  number: '31995'
+  packages:
+  - RecoEgamma/EgammaTools
+  reco_category: 'EGM'
+  title: UL 2018 scale and smearing corrections
+- author: '@andrzejnovak'
+  number: '31847'
+  packages:
+  - PhysicsTools/NanoAOD
+  - PhysicsTools/PatAlgos
+  - RecoBTag/ONNXRuntime
+  reco_category: 'XPOG'
+  title: 'DDXv2 and BTV changes in Nano'
+- author: '@swertz'
+  number: '31805'
+  packages:
+  - PhysicsTools/NanoAOD
+  - PhysicsTools/PatAlgos
+  reco_category: 'XPOG'
+  title: fix electron IP sign in nano
+- author: '@slava77'
+  number: '31740'
+  packages:
+  - RecoMET/METPUSubtraction
+  reco_category: 'JME'
+  title: thread safety in DeepMETProducer
+- author: '@hqucms'
+  number: '31615'
+  packages:
+  - RecoBTag/FeatureTools
+  - PhysicsTools/PatAlgos
+  - RecoBTag/Configuration
+  - RecoBTag/ONNXRuntime
+  reco_category: 'BTV'
+  title: ParticleNetAK4 jet tagger
+

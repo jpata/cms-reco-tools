@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
-CMSSW=CMSSW_11_2_X_2020-10-27-1100
-TAG=guitargeek:EcalClusterLazyTools_1
-PR=31892
-WORKFLOW=23434.21
+CMSSW=CMSSW_11_2_X_2020-11-19-2300
+TAG=cms-patatrack:patatrack_integration_7_N_ecal_local_reco
+PR=31719
+WORKFLOW=4.53
 THREADS=8
-NUMEVENTS=10
+NUMEVENTS=1000
 
 cd ~/reco
 mkdir -p $PR
@@ -16,7 +16,10 @@ cd $PR
 scram p -n orig CMSSW $CMSSW
 cd orig
 eval `scramv1 runtime -sh`
+
+#~/tools/extendedTests2021.sh
 runTheMatrix.py -l $WORKFLOW --command="-n $NUMEVENTS --nThreads $THREADS"
+
 cd ..
 
 #get the PR, compile
@@ -27,20 +30,22 @@ git cms-merge-topic --unsafe $TAG
 git cms-checkdeps -a >& dep.log 
 scram b -j $THREADS >& abuild.log
 
-#copy the reference workflow
+#~/tools/extendedTests2021.sh
+
+##copy the reference workflow
 cp -R ../orig/$WORKFLOW_* ./
 
 #rerun only RECO part
-cd $WORKFLOW_*
+#cd $WORKFLOW_*
 cmsRun step3_*.py >& step3_*.log
-cmsRun step4_*.py >& step4_*.log
-cd ../..
+#cmsRun step4_*.py >& step4_*.log
+#cd ../..
  
 ##run JR comparison (precompiled using validate_main.cpp && Makefile)
-#mkdir comparisonJR
-#cd comparisonJR
-#~/tools/validate ../new/$WORKFLOW_*/step3.root ../orig/$WORKFLOW_*/step3.root all > log
-#
+mkdir comparisonJR
+cd comparisonJR
+~/tools/validate ../new/$WORKFLOW_*/step3.root ../orig/$WORKFLOW_*/step3.root all > log
+
 ##run DQM comparison (multithreaded plots)
 #cd ..
 #mkdir comparisonDQM

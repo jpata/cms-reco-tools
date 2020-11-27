@@ -47,20 +47,29 @@ expressions = []
 #    [("pt", "[j.pt() for j in obj]"), ("eta", "[j.eta() for j in obj]"), ("phi", "[j.phi() for j in obj]")]
 #))
 
-expressions.append(Expression(
-    "offlinePrimaryVertices",
-    "vector<reco::Vertex>",
-    [
-        ("size", "obj.size()"),
-    ]
-))
+#expressions.append(Expression(
+#    "offlinePrimaryVertices",
+#    "vector<reco::Vertex>",
+#    [
+#        ("size", "obj.size()"),
+#    ]
+#))
+#
+#expressions.append(Expression(
+#    "particleFlowBlock",
+#    "vector<reco::PFBlock>",
+#    [
+#        ("size", "sorted([o.elements().size() for o in obj])"),
+#        ("elems", "sorted([[elem.type() for elem in o.elements()] for o in obj])"),
+#    ]
+#))
 
 expressions.append(Expression(
-    "particleFlowBlock",
-    "vector<reco::PFBlock>",
+    ("hbheprereco", ""),
+    "edm::SortedCollection<HBHERecHit,edm::StrictWeakOrdering<HBHERecHit> >",
     [
-        ("size", "sorted([o.elements().size() for o in obj])"),
-        ("elems", "sorted([[elem.type() for elem in o.elements()] for o in obj])"),
+        ("size", "obj.size()"),
+        ("energy", "sorted([o.energy() for o in obj], reverse=True)"),
     ]
 ))
 
