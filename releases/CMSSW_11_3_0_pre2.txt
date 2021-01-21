@@ -310,7 +310,7 @@
   - RecoEgamma/EgammaElectronProducers
   - PhysicsTools/PatAlgos
   reco_category: 'EGM'
-  title: LowPtElectrons: final energy regression and ID
+  title: LowPtElectrons final energy regression and ID
 - author: '@jeongeun'
   number: '32386'
   packages:
@@ -341,7 +341,7 @@
   - Configuration/PyReleaseValidation
   - Validation/RecoParticleFlow
   reco_category: 'PF'
-  title: MLPF: first integration of EDProducer and training code
+  title: MLPF first integration of EDProducer and training code
 - author: '@cms-patatrack'
   number: '31721'
   packages:

@@ -1,0 +1,25 @@
+- author: '@nvoytish'
+  number: '32507'
+  packages:
+  - RecoLocalMuon/CSCRecHitD
+  reco_category: 'MUO'
+  title: Update CSCMake2DRecHit.cc
+- author: '@hatakeyamak'
+  number: '32390'
+  packages:
+  - RecoParticleFlow/PFProducer
+  reco_category: 'PF'
+  title: Adopt ChargedHadronPFTrackIsolationProducer for PFTICL candidates
+- author: '@mandrenguyen'
+  number: '32331'
+  packages:
+  - RecoBTag/Combined
+  reco_category: 'BTV'
+  title: Set default value for jets w/o SV info in HI CSV tagger
+- author: '@mandrenguyen'
+  number: '32330'
+  packages:
+  - RecoHI/HiJetAlgos
+  reco_category: 'HI'
+  title: Use cleaned PF candidates in UE subtraction in HI miniAOD
+

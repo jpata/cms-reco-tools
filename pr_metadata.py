@@ -146,5 +146,5 @@ def prepare_upcoming_release_metadata(release="CMSSW_10_6_18", master="CMSSW_10_
 if __name__ == "__main__":
 
     #prepare_upcoming_release_metadata(sys.argv[1], sys.argv[2])
-    prepare_release_metadata(sys.argv[1])
-    #prepare_twiki(sys.argv[1])
+    #prepare_release_metadata(sys.argv[1])
+    prepare_twiki(sys.argv[1])
