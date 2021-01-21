@@ -64,12 +64,25 @@ expressions = []
 #    ]
 #))
 
+#expressions.append(Expression(
+#    ("hbheprereco", ""),
+#    "edm::SortedCollection<HBHERecHit,edm::StrictWeakOrdering<HBHERecHit> >",
+#    [
+#        ("size", "obj.size()"),
+#        ("energy", "sorted([o.energy() for o in obj], reverse=True)"),
+#    ]
+#))
+
 expressions.append(Expression(
-    ("hbheprereco", ""),
-    "edm::SortedCollection<HBHERecHit,edm::StrictWeakOrdering<HBHERecHit> >",
+    ("ecalMultiFitUncalibRecHit", "EcalUncalibRecHitsEB"),
+    "edm::SortedCollection<EcalUncalibratedRecHit,edm::StrictWeakOrdering<EcalUncalibratedRecHit> >",
     [
         ("size", "obj.size()"),
-        ("energy", "sorted([o.energy() for o in obj], reverse=True)"),
+        ("amplitude", "[o.amplitude() for o in obj]"),
+        ("pedestal", "[o.pedestal() for o in obj]"),
+        ("jitter", "[o.jitter() for o in obj]"),
+        ("outOfTimeAmplitude", "[o.outOfTimeAmplitude() for o in obj]"),
+        ("chi2", "[o.chi2() for o in obj]"),
     ]
 ))
 

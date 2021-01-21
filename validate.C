@@ -2400,6 +2400,19 @@ void validateEvents(TString step, TString file, TString refFile, TString r="RECO
         plotvar("log2(max("+tbr+".obj.flagBits_,0.5))");
         plotvar(tbr+".obj.flags()");
       }
+     
+      tbr="EcalUncalibratedRecHitsSorted_ecalMultiFitUncalibRecHit_EcalUncalibRecHitsEB_"+recoS+".obj";
+      if (checkBranchOR(tbr, true)){
+        plotvar(tbr+".obj@.size()");
+        plotvar(tbr+".obj.amplitude()");
+        plotvar("log10("+tbr+".obj.amplitude())");
+        plotvar("log10("+tbr+".obj.amplitude())", tbr+".obj.amplitude()>0.001");
+        plotvar(tbr+".obj.pedestal()");
+        plotvar(tbr+".obj.jitter()");
+        plotvar(tbr+".obj.jitter()", "abs(" + tbr+".obj.jitter())>0.001");
+        plotvar(tbr+".obj.outOfTimeAmplitude()");
+        plotvar(tbr+".obj.chi2()");
+      }
 
       tbr="EcalRecHitsSorted_ecalRecHit_EcalRecHitsEE_"+recoS+".obj";
       if (checkBranchOR(tbr, true)){
@@ -2415,6 +2428,19 @@ void validateEvents(TString step, TString file, TString refFile, TString r="RECO
         plotvar(tbr+".obj.recoFlag()");
         plotvar("log2(max("+tbr+".obj.flagBits_,0.5))");
         plotvar(tbr+".obj.flags()");
+      }
+      
+      tbr="EcalUncalibratedRecHitsSorted_ecalMultiFitUncalibRecHit_EcalUncalibRecHitsEE_"+recoS+".obj";
+      if (checkBranchOR(tbr, true)){
+        plotvar(tbr+".obj@.size()");
+        plotvar(tbr+".obj.amplitude()");
+        plotvar("log10("+tbr+".obj.amplitude())");
+        plotvar("log10("+tbr+".obj.amplitude())", tbr+".obj.amplitude()>0.001");
+        plotvar(tbr+".obj.pedestal()");
+        plotvar(tbr+".obj.jitter()");
+        plotvar(tbr+".obj.jitter()", "abs(" + tbr+".obj.jitter())>0.001");
+        plotvar(tbr+".obj.outOfTimeAmplitude()");
+        plotvar(tbr+".obj.chi2()");
       }
 
       tbr="EcalRecHitsSorted_reducedEcalRecHitsEB__"+recoS+".obj";

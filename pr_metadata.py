@@ -43,7 +43,7 @@ def get_reco_category(metadata):
     return ""
 
 def prepare_release_metadata(release="CMSSW_11_2_0_pre8"):
-    stream = os.popen('gh release view {} | grep reco'.format(release))
+    stream = os.popen('gh release view {} | grep reconstruction'.format(release))
     output = stream.read()
     metadatas = parse_release(output)
     print(yaml.dump(metadatas))
@@ -146,5 +146,5 @@ def prepare_upcoming_release_metadata(release="CMSSW_10_6_18", master="CMSSW_10_
 if __name__ == "__main__":
 
     #prepare_upcoming_release_metadata(sys.argv[1], sys.argv[2])
-    #prepare_release_metadata(sys.argv[1])
-    prepare_twiki(sys.argv[1])
+    prepare_release_metadata(sys.argv[1])
+    #prepare_twiki(sys.argv[1])

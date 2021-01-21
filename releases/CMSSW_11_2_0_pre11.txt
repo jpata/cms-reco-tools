@@ -1,0 +1,25 @@
+- author: '@silviodonato'
+  number: '32346'
+  packages:
+  - RecoPPS/Configuration
+  reco_category: 'PPS'
+  title: Remove temporarily ctppsProtons from recoCTPPSTask
+- author: '@fwyzard'
+  number: '32323'
+  packages:
+  - EventFilter/Utilities
+  reco_category: 'DAQ'
+  title: Implement the fillDescriptions method for RawStreamFileWriterForBU
+- author: '@cms-sw'
+  number: '32321'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'general'
+  title: Initialize data member to fix clang errors
+- author: '@mmusich'
+  number: '32296'
+  packages:
+  - RecoTracker/TrackProducer
+  reco_category: 'TRK'
+  title: add RecoLocalTracker_cff to TrackRefitters_cff
+

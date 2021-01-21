@@ -1,0 +1,38 @@
+- author: '@hatakeyamak'
+  number: '32316'
+  packages:
+  - RecoParticleFlow/PFProducer
+  reco_category: 'PF'
+  title: Adopt ChargedHadronPFTrackIsolationProducer for PFTICL candidates
+- author: '@mmusich'
+  number: '32292'
+  packages:
+  - RecoTracker/TrackProducer
+  reco_category: 'TRK'
+  title: add RecoLocalTracker_cff to TrackRefitters_cff
+- author: '@smorovic'
+  number: '32121'
+  packages:
+  - EventFilter/Utilities
+  - IOPool/Streamer
+  reco_category: 'DAW'
+  title: fix FedRawData source going out of array boundaries
+- author: '@silviodonato'
+  number: '32104'
+  packages:
+  - Configuration/StandardSequences
+  reco_category: 'general'
+  title: remove hgcal local reco from reconstruction_trackingOnlyTask for trackingPhase2PU140
+- author: '@rovere'
+  number: '31907'
+  packages:
+  - RecoEgamma/EgammaTools
+  - RecoLocalCalo/HGCalRecAlgos
+  - RecoHGCal/TICL
+  - DataFormats/HGCalReco
+  - Validation/HGCalValidation
+  - RecoLocalCalo/HGCalRecProducers
+  - RecoHGCal/Configuration
+  - RecoParticleFlow/PFClusterProducer
+  reco_category: 'HGCAL'
+  title: TICL reconstruction update

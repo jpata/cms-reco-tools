@@ -1,0 +1,389 @@
+- author: '@perrotta'
+  number: '32682'
+  packages:
+  - RecoMuon/DetLayers
+  - RecoLocalCalo/Castor
+  reco_category: 'general'
+  title: Fix a couple of sparse issues in reco pointed out by the static analyzer
+- author: '@slava77'
+  number: '32675'
+  packages:
+  - RecoPixelVertexing/PixelTrackFitting
+  - RecoMuon/MuonIdentification
+  reco_category: 'general'
+  title: fix in PixelTrackBuilder and MuonIdProducer to get debug build
+- author: '@Dr15Jones'
+  number: '32665'
+  packages:
+  - RecoTracker/FinalTrackSelectors
+  reco_category: 'general'
+  title: Set TrackMerger.debug in the constructor
+- author: '@guitargeek'
+  number: '32651'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  reco_category: 'general'
+  title: Some modernization of plugins in EgammaIsolationAlgos
+- author: '@Dr15Jones'
+  number: '32629'
+  packages:
+  - RecoParticleFlow/PFProducer
+  reco_category: 'general'
+  title: Removed unnecessary dependency from RecoParticleFlow/PFProducer
+- author: '@guitargeek'
+  number: '32626'
+  packages:
+  - CommonTools/ParticleFlow
+  - DataFormats/EgammaCandidates
+  - CommonTools/Egamma
+  - RecoEgamma/EgammaPhotonProducers
+  - PhysicsTools/PatAlgos
+  reco_category: 'general'
+  title: Use EDPutToken in ReducedEGProducer and modernize GEDPhotonCoreProducer
+- author: '@jeongeun'
+  number: '32625'
+  packages:
+  - RecoLocalTracker/Phase2TrackerRecHits
+  - RecoLocalTracker/SiStripZeroSuppression
+  reco_category: 'general'
+  title: drop type spec in RecoLocalTracker
+- author: '@jeongeun'
+  number: '32624'
+  packages:
+  - RecoLocalCalo/CaloTowersCreator
+  - RecoLocalCalo/HcalRecAlgos
+  - RecoLocalCalo/HcalRecProducers
+  reco_category: 'general'
+  title: drop type specifications in RecoLocalCalo
+- author: '@jeongeun'
+  number: '32623'
+  packages:
+  - RecoLocalMuon/DTSegment
+  reco_category: 'MUO'
+  title: drop type specifications in RecoLocalMuon
+- author: '@Dr15Jones'
+  number: '32614'
+  packages:
+  - RecoTracker/FinalTrackSelectors
+  - HLTrigger/HLTcore
+  - FWCore/Common
+  - PhysicsTools/JetMCAlgos
+  - FWCore/Framework
+  - TopQuarkAnalysis/TopEventProducers
+  - HeavyFlavorAnalysis/Onia2MuMu
+  - DQMOffline/L1Trigger
+  - RecoEgamma/EgammaElectronProducers
+  - RecoTauTag/RecoTau
+  - HLTrigger/Muon
+  - RecoMuon/GlobalTrackingTools
+  - SimCalorimetry/EcalSelectiveReadoutProducers
+  - HLTrigger/HLTfilters
+  - DQMOffline/Trigger
+  - PhysicsTools/PatAlgos
+  - RecoBTag/FeatureTools
+  - FWCore/Modules
+  - Validation/RecoTau
+  - RecoMuon/L3MuonProducer
+  - HLTrigger/btau
+  reco_category: 'general'
+  title: Principal::getProvenance can no longer trigger unscheduled execution
+- author: '@guitargeek'
+  number: '32613'
+  packages:
+  - RecoEgamma/EgammaHFProducers
+  reco_category: 'general'
+  title: Merge .h with .cc files of plugins in EgammaHFProducers
+- author: '@forthommel'
+  number: '32606'
+  packages:
+  - SimPPS/PPSPixelDigiProducer
+  - Validation/CTPPS
+  - RecoPPS/Local
+  reco_category: 'PPS'
+  title: Thread-safe ES condition retrieval
+- author: '@CTPPS'
+  number: '32603'
+  packages:
+  - Geometry/VeryForwardData
+  - Validation/CTPPS
+  - Geometry/VeryForwardGeometryBuilder
+  - RecoPPS/ProtonReconstruction
+  reco_category: 'PPS'
+  title: fix z sign in diamond geometry
+- author: '@Dr15Jones'
+  number: '32600'
+  packages:
+  - CondFormats/SiPixelTransient
+  reco_category: 'general'
+  title: Set all member data in SiPixelGenError constructor
+- author: '@Sam-Harper'
+  number: '32594'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  - RecoEgamma/EgammaHLTProducers
+  - DataFormats/L1TrackTrigger
+  reco_category: 'HLT'
+  title: Egamma HLT L1 Track Isolation Producer, TTTrack typedef
+- author: '@fwyzard'
+  number: '32591'
+  packages:
+  - CondFormats/SiPixelTransient
+  - RecoLocalTracker/SiPixelRecHits
+  reco_category: 'general'
+  title: Rename local variables according to the coding rules
+- author: '@guitargeek'
+  number: '32588'
+  packages:
+  - RecoEcal/EgammaClusterProducers
+  - RecoEcal/EgammaCoreTools
+  - RecoEcal/EgammaClusterAlgos
+  reco_category: 'EGM'
+  title: Migrate EcalBasicClusterLocalContCorrection to ESTokens
+- author: '@slava77'
+  number: '32579'
+  packages:
+  - RecoTracker/IterativeTracking
+  reco_category: 'TRK'
+  title: tobTecStepTrackCandidates.onlyPixelHitsForSeedCleaner False
+- author: '@forthommel'
+  number: '32572'
+  packages:
+  - Validation/CTPPS
+  - RecoPPS/Local
+  - CalibPPS/AlignmentRelative
+  - EventFilter/CTPPSRawToDigi
+  reco_category: 'general'
+  title: Systematic use of emplace_back
+- author: '@guitargeek'
+  number: '32570'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  - PhysicsTools/NanoAOD
+  - SimCalorimetry/HGCalSimProducers
+  - RecoLocalCalo/HcalRecProducers
+  - RecoEgamma/Examples
+  - CommonTools/RecoAlgos
+  - CommonTools/MVAUtils
+  - DQM/SiPixelMonitorCluster
+  - EventFilter/HcalRawToDigi
+  - SimDataFormats/Associations
+  - Validation/SiPixelPhase1TrackClustersV
+  - RecoLocalCalo/HcalRecAlgos
+  - DQM/SiPixelMonitorTrack
+  - SimG4Core/Application
+  reco_category: 'general'
+  title: Clean some more BuildFiles
+- author: '@cvuosalo'
+  number: '32560'
+  packages:
+  - MagneticField/GeomBuilder
+  reco_category: 'DD4HEP'
+  title: Keep mag. field geom. builder shape lengths same with DD4hep units
+- author: '@Dr15Jones'
+  number: '32552'
+  packages:
+  - JetMETCorrections/Type1MET
+  reco_category: 'JME'
+  title: Added missing package dependency needed for UBSAN in JetMETCorrections/Type1MET
+- author: '@slava77'
+  number: '32541'
+  packages:
+  - RecoHI/HiEvtPlaneAlgos
+  reco_category: 'HI'
+  title: switch modifiers to pp_on_AA for hiEvtPlane
+- author: '@felicepantaleo'
+  number: '32524'
+  packages:
+  - RecoHGCal/TICL
+  reco_category: 'HGCAL'
+  title: fix NaN values in LeafCandidate rapidity
+- author: '@perrotta'
+  number: '32521'
+  packages:
+  - RecoPPS/ProtonReconstruction
+  reco_category: 'PPS'
+  title: Range based loop in PPSFilteredProtonProducer
+- author: '@SohamBhattacharya'
+  number: '32519'
+  packages:
+  - RecoEgamma/EgammaHLTProducers
+  - RecoEgamma/EgammaTools
+  reco_category: 'HGCAL'
+  title: HGCal ID variables
+- author: '@fwyzard'
+  number: '32499'
+  packages:
+  - FWCore/Utilities
+  - RecoLocalCalo/HcalRecProducers
+  - HeterogeneousCore/CUDAUtilities
+  - DataFormats/CaloRecHit
+  reco_category: 'general'
+  title: Add and use preprocessors macros for loop unrolling
+- author: '@guitargeek'
+  number: '32498'
+  packages:
+  - RecoEgamma/EgammaElectronProducers
+  - RecoEcal/EgammaCoreTools
+  - RecoEgamma/EgammaElectronAlgos
+  reco_category: 'general'
+  title: EcalClusterEnergyUncertaintyElectronSpecific to free function
+- author: '@Dr15Jones'
+  number: '32494'
+  packages:
+  - FastSimulation/TrackingRecHitProducer
+  - CondFormats/SiPixelTransient
+  - RecoLocalTracker/SiPixelRecHits
+  reco_category: 'general'
+  title: Better destructor behavior for SiPixelTemplateStore
+- author: '@seulgi324'
+  number: '32490'
+  packages:
+  - RecoMuon/DetLayers
+  reco_category: 'MUO'
+  title: Build GE0 in the Muon Reco Geometry
+- author: '@gsorrentino18'
+  number: '32476'
+  packages:
+  - Validation/MtdValidation
+  - RecoLocalFastTime/FTLRecProducers
+  - SimFastTiming/FastTimingCommon
+  reco_category: 'MTD'
+  title: ETL Validation code update and fixes
+- author: '@jeongeun'
+  number: '32464'
+  packages:
+  - CommonTools/ParticleFlow
+  - CommonTools/RecoUtils
+  - CommonTools/PileupAlgos
+  - CommonTools/RecoAlgos
+  reco_category: 'general'
+  title: drop type spec in CommonTools
+- author: '@guitargeek'
+  number: '32462'
+  packages:
+  - RecoEgamma/EgammaTools
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: 'EGM'
+  title: Correctly add HIPhotonIsolation to pat::photon
+- author: '@mrodozov'
+  number: '32440'
+  packages:
+  - RecoLocalCalo/HcalRecAlgos
+  reco_category: 'general'
+  title: Change Minuit logger for CMS MessageLogger
+- author: '@guitargeek'
+  number: '32438'
+  packages:
+  - RecoEgamma/Examples
+  reco_category: 'general'
+  title: Merge .h with .cc files in RecoEgamma/Examples
+- author: '@guitargeek'
+  number: '32392'
+  packages:
+  - RecoParticleFlow/PFProducer
+  - RecoJets/JetProducers
+  - CondCore/GBRForestPlugins
+  - RecoEgamma/ElectronIdentification
+  - RecoTracker/FinalTrackSelectors
+  - RecoParticleFlow/PFClusterProducer
+  - EgammaAnalysis/ElectronTools
+  - RecoParticleFlow/PFTracking
+  - RecoEcal/EgammaClusterAlgos
+  - RecoEcal/EgammaClusterProducers
+  - RecoEgamma/EgammaElectronProducers
+  - RecoTauTag/RecoTau
+  - CondCore/Utilities
+  - RecoHI/HiTracking
+  - CondFormats/GBRForest
+  - RecoEgamma/PhotonIdentification
+  - CondFormats/EgammaObjects
+  - RecoMET/METPUSubtraction
+  - CondCore/EgammaPlugins
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoEgamma/EgammaTools
+  - CommonTools/MVAUtils
+  reco_category: 'general'
+  title: New CondFormats/GBRForest package
+- author: '@bainbrid'
+  number: '32391'
+  packages:
+  - RecoEgamma/EgammaElectronProducers
+  - PhysicsTools/PatAlgos
+  reco_category: 'EGM'
+  title: LowPtElectrons: final energy regression and ID
+- author: '@jeongeun'
+  number: '32386'
+  packages:
+  - RecoHI/Configuration
+  - RecoHI/HiTracking
+  reco_category: 'general'
+  title: Drop type specs in RecoHI {Configuration, HiTracking}
+- author: '@vberta'
+  number: '32222'
+  packages:
+  - RecoTracker/TkSeedGenerator
+  - SimTracker/TrackAssociatorProducers
+  - Validation/RecoTrack
+  - Configuration/PyReleaseValidation
+  - Configuration/ProcessModifiers
+  - RecoTracker/IterativeTracking
+  - RecoParticleFlow/PFTracking
+  - TrackingTools/GsfTracking
+  - RecoEgamma/EgammaElectronProducers
+  reco_category: 'TRK'
+  title: DeepCore (NN jetCore seeding)
+- author: '@jpata'
+  number: '32048'
+  packages:
+  - RecoParticleFlow/PFProducer
+  - Configuration/ProcessModifiers
+  - RecoParticleFlow/Configuration
+  - Configuration/PyReleaseValidation
+  - Validation/RecoParticleFlow
+  reco_category: 'PF'
+  title: MLPF: first integration of EDProducer and training code
+- author: '@cms-patatrack'
+  number: '31721'
+  packages:
+  - CalibTracker/SiPixelESProducers
+  - RecoLocalTracker/Configuration
+  - Validation/Configuration
+  - Calibration/LumiAlCaRecoProducers
+  - DataFormats/SiPixelDigi
+  - CUDADataFormats/SiPixelDigi
+  - RecoLocalTracker/SiPixelClusterizer
+  - Validation/SiPixelPhase1ConfigV
+  - CUDADataFormats/Common
+  - DataFormats/SiPixelRawData
+  - Configuration/StandardSequences
+  - RecoLocalTracker/SiPixelRecHits
+  - DQM/Integration
+  - EventFilter/SiPixelRawToDigi
+  - CUDADataFormats/SiPixelCluster
+  - DataFormats/SiPixelCluster
+  - CondFormats/SiPixelObjects
+  - CUDADataFormats/TrackingRecHit
+  - Geometry/TrackerGeometryBuilder
+  - CalibTracker/Records
+  reco_category: 'Patatrack'
+  title: Patatrack integration - Pixel local reconstruction
+- author: '@cms-patatrack'
+  number: '31719'
+  packages:
+  - Configuration/StandardSequences
+  - RecoLocalCalo/Configuration
+  - CUDADataFormats/EcalRecHitSoA
+  - EventFilter/EcalRawToDigi
+  - RecoLocalCalo/EcalRecAlgos
+  - CUDADataFormats/EcalDigi
+  - RecoLocalCalo/EcalRecProducers
+  reco_category: 'Patatrack'
+  title: Patatrack integration - ECAL local reconstruction
+- author: '@jwill24'
+  number: '31531'
+  packages:
+  - PhysicsTools/NanoAOD
+  - RecoPPS/ProtonReconstruction
+  reco_category: 'PPS'
+  title: PPS nanoAOD
+

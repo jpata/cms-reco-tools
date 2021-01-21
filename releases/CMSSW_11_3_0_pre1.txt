@@ -1,0 +1,271 @@
+- author: '@nvoytish'
+  number: '32442'
+  packages:
+  - RecoLocalMuon/CSCRecHitD
+  reco_category: 'MUO'
+  title: Update CSCMake2DRecHit to fix ASAN error
+- author: '@slava77'
+  number: '32426'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'general'
+  title: remove unnecessary include in PhysicsTools/PatAlgos
+- author: '@guitargeek'
+  number: '32424'
+  packages:
+  - RecoEgamma/EgammaPhotonAlgos
+  - RecoEgamma/EgammaTools
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: 'general'
+  title: Partially migrate EGEnergyCorrector to ESGetTokens and remove support for electrons
+- author: '@guitargeek'
+  number: '32401'
+  packages:
+  - CommonTools/RecoAlgos
+  - CommonTools/ParticleFlow
+  - JetMETCorrections/JetCorrector
+  - Validation/RecoTrack
+  reco_category: 'general'
+  title: Break circular dependency between CommonTools and JetMETCorrections subsystems
+- author: '@jeongeun'
+  number: '32396'
+  packages:
+  - TrackingTools/GeomPropagators
+  - TrackingTools/GsfTracking
+  - TrackingTools/Producers
+  - RecoMuon/Configuration
+  - TrackingTools/TrackRefitter
+  - TrackingTools/MaterialEffects
+  - TrackingTools/TrackFitters
+  - RecoMuon/L2MuonProducer
+  reco_category: 'general'
+  title: drop type spec in TrackingTools RecoMuon
+- author: '@mariadalfonso'
+  number: '32394'
+  packages:
+  - RecoLocalCalo/HcalRecAlgos
+  reco_category: 'HCAL'
+  title: Avoid double counting of correlated term in HBHE
+- author: '@guitargeek'
+  number: '32362'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  reco_category: 'general'
+  title: Merge remaining .h files with .cc plugin files in EgammaIsolationAlogs
+- author: '@silviodonato'
+  number: '32352'
+  packages:
+  - RecoPPS/Configuration
+  reco_category: 'PPS'
+  title: Remove temporarily ctppsProtons from recoCTPPSTask
+- author: '@guitargeek'
+  number: '32342'
+  packages:
+  - RecoParticleFlow/PFProducer
+  - RecoParticleFlow/PFTracking
+  - RecoParticleFlow/PFSimProducer
+  - RecoParticleFlow/Configuration
+  reco_category: 'general'
+  title: Implement fillDescriptions() for producers in RecoParticleFlow/PFSimProducer
+- author: '@missirol'
+  number: '32341'
+  packages:
+  - CommonTools/PileupAlgos
+  reco_category: 'JME'
+  title: option to use generic PU proxy
+- author: '@guitargeek'
+  number: '32327'
+  packages:
+  - RecoEgamma/ElectronIdentification
+  reco_category: 'EGM'
+  title: Remove GsfEleDEtaInSeedCut and GsfEleDPhiInCut
+- author: '@mandrenguyen'
+  number: '32326'
+  packages:
+  - RecoBTag/Combined
+  reco_category: 'HI'
+  title: Set default value for jets w/o SV info in HI CSV tagger
+- author: '@mandrenguyen'
+  number: '32325'
+  packages:
+  - RecoHI/HiJetAlgos
+  reco_category: 'HI'
+  title: Use cleaned PF candidates in UE subtraction in HI miniAOD
+- author: '@guitargeek'
+  number: '32324'
+  packages:
+  - DQM/SiOuterTracker
+  - CalibTracker/SiStripLorentzAngle
+  - RecoEgamma/EgammaPhotonProducers
+  - DataFormats/L1THGCal
+  - RecoBTag/ONNXRuntime
+  - L1Trigger/L1THGCal
+  - L1Trigger/L1THGCalUtilities
+  reco_category: 'general'
+  title: Clean some more BuildFiles
+- author: '@smuzaffar'
+  number: '32307'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'general'
+  title: Initialize data member to fix clang errors about explicit deleted
+- author: '@andrzejnovak'
+  number: '32297'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'XPOG'
+  title: allow for not sorting during PATJetUpdater call
+- author: '@casarsa'
+  number: '32295'
+  packages:
+  - SimFastTiming/FastTimingCommon
+  - DataFormats/Math
+  reco_category: 'MTD'
+  title: MTD simulation explicit unit conversions
+- author: '@fwyzard'
+  number: '32284'
+  packages:
+  - EventFilter/Utilities
+  reco_category: 'general'
+  title: Implement the fillDescriptions method for RawStreamFileWriterForBU
+- author: '@mmusich'
+  number: '32280'
+  packages:
+  - EventFilter/SiStripRawToDigi
+  reco_category: 'TRK'
+  title: optimize search algorithm for EventFilter/SiStripRawToDigi
+- author: '@riga'
+  number: '32271'
+  packages:
+  - PhysicsTools/TensorFlow
+  reco_category: 'ML'
+  title: Accept const graphs in session creation
+- author: '@guitargeek'
+  number: '32266'
+  packages:
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: 'general'
+  title: Merge .h files with .cc plugin files in EgammaPhotonProducers
+- author: '@hatakeyamak'
+  number: '32265'
+  packages:
+  - RecoParticleFlow/PFTracking
+  reco_category: 'general'
+  title: Remove unnecessary import of MessageLogger_cfi from RecoParticleFlow
+- author: '@guitargeek'
+  number: '32259'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  reco_category: 'general'
+  title: Merge .h files with .cc plugin files in EgammaIsolationAlgos
+- author: '@Dr15Jones'
+  number: '32244'
+  reco_category: 'general'
+  title: Convert all remaining MessageLogger configurations to new syntax
+- author: '@cms-tau-pog'
+  number: '32243'
+  packages:
+  - RecoTauTag/RecoTau
+  reco_category: 'TAU'
+  title: Set fixes for tau reco at miniAOD
+- author: '@cms-tau-pog'
+  number: '32242'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'TAU'
+  title: Expand track information in lostTracks collection
+- author: '@Dr15Jones'
+  number: '32235'
+  packages:
+  - RecoEgamma/EgammaElectronAlgos
+  - RecoTracker/GeometryESProducer
+  - RecoLuminosity/LumiProducer
+  - RecoLocalTracker/SiPixelClusterizer
+  - RecoPPS/Local
+  - RecoVertex/BeamSpotProducer
+  - RecoLocalCalo/HcalRecAlgos
+  - RecoLocalTracker/SiPhase2VectorHitBuilder
+  - RecoJets/JetProducers
+  - RecoPixelVertexing/PixelTrackFitting
+  reco_category: 'general'
+  title: Updated configurations in Reco to new MessageLogger syntax
+- author: '@OzAmram'
+  number: '32220'
+  packages:
+  - CondFormats/SiPixelTransient
+  - Configuration/AlCa
+  - SLHCUpgradeSimulations/Geometry
+  reco_category: 'TRK'
+  title: Phase2 improved conditions and ntuple maker update
+- author: '@hatakeyamak'
+  number: '32202'
+  packages:
+  - RecoParticleFlow/PFProducer
+  reco_category: 'PF'
+  title: Adopt ChargedHadronPFTrackIsolationProducer for PFTICL candidates
+- author: '@mmusich'
+  number: '32178'
+  packages:
+  - RecoTracker/TrackProducer
+  reco_category: 'TRK'
+  title: add RecoLocalTracker_cff to TrackRefitters_cff
+- author: '@CMSTrackerDPG'
+  number: '32093'
+  packages:
+  - DQM/SiPixelMonitorRecHit
+  - DQM/SiPixelMonitorCluster
+  - CalibTracker/SiPixelSCurveCalibration
+  - DQM/SiPixelMonitorRawData
+  - SimTracker/SiPixelDigitizer
+  - CalibTracker/SiPixelGainCalibration
+  - RecoLocalTracker/SiPixelClusterizer
+  - DQM/SiPixelMonitorTrack
+  - Validation/SiPixelPhase1HitsV
+  - CalibTracker/SiPixelESProducers
+  - DQM/SiPixelPhase1Common
+  - DQM/SiPixelMonitorDigi
+  - CalibTracker/SiPixelTools
+  - CalibTracker/SiPixelConnectivity
+  - CalibTracker/SiPixelErrorEstimation
+  - Validation/SiPixelPhase1TrackClustersV
+  - DQM/SiPixelMonitorClient
+  - CalibTracker/SiPixelLorentzAngle
+  - DQM/SiPixelPhase1Track
+  reco_category: 'general'
+  title: Migration of pixel code to esConsumes
+- author: '@cms-l1t-offline'
+  number: '31985'
+  packages:
+  - L1Trigger/Configuration
+  - L1Trigger/L1TGlobal
+  - PhysicsTools/PatAlgos
+  reco_category: 'L1'
+  title: L1T Unprefireable Bit Functionality for miniAOD Reprocessing
+- author: '@cms-patatrack'
+  number: '31720'
+  packages:
+  - CUDADataFormats/HcalDigi
+  - EventFilter/HcalRawToDigi
+  - RecoLocalCalo/Configuration
+  - RecoLocalCalo/HcalRecAlgos
+  - CUDADataFormats/HcalRecHitSoA
+  - RecoLocalCalo/HcalRecProducers
+  reco_category: 'PATATRACK'
+  title: Patatrack integration - HCAL local reconstruction
+- author: '@forthommel'
+  number: '31484'
+  packages:
+  reco_category: 'PPS'
+  title: 2021 conditions for timing detectors geometry
+- author: '@bainbrid'
+  number: '31220'
+  packages:
+  - CommonTools/MVAUtils
+  - PhysicsTools/PatAlgos
+  - DataFormats/PatCandidates
+  - RecoEgamma/EgammaElectronProducers
+  - RecoEgamma/Configuration
+  - RecoEgamma/EgammaTools
+  reco_category: 'EGM'
+  title: Add low-pT electrons to MINIAOD, update ID
+
