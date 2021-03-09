@@ -1,0 +1,266 @@
+- author: '@jeongeun'
+  number: '33048'
+  packages:
+  - RecoHI/HiTracking
+  - RecoHI/HiEgammaAlgos
+  - RecoHI/HiMuonAlgos
+  - RecoHI/Configuration
+  reco_category: 'general'
+  title: type specs RecoHI
+- author: '@jeongeun'
+  number: '33047'
+  packages:
+  - RecoPixelVertexing/PixelLowPtUtilities
+  reco_category: 'general'
+  title: Move cms.Sequence to cms.Task in RecoPixelVertexing
+- author: '@jeongeun'
+  number: '33035'
+  packages:
+  - RecoTauTag/Configuration
+  reco_category: 'general'
+  title: drop type specification in RecoTauTag
+- author: '@jeongeun'
+  number: '33034'
+  packages:
+  - RecoVertex/AdaptiveVertexFinder
+  reco_category: 'general'
+  title: drop type specification in RecoVertex
+- author: '@jpata'
+  number: '33024'
+  packages:
+  - Configuration/StandardSequences
+  reco_category: 'general'
+  title: disable LumiProducer in reco sequences
+- author: '@riga'
+  number: '33021'
+  packages:
+  - PhysicsTools/TensorFlow
+  reco_category: 'ML'
+  title: Changes for TensorFlow 2.4 support
+- author: '@davidlange6'
+  number: '33014'
+  packages:
+  - PhysicsTools/SelectorUtils
+  reco_category: 'general'
+  title: PhysicsTools/SelectorUtils dependencies
+- author: '@jshlee'
+  number: '33000'
+  packages:
+  - CondFormats/GEMObjects
+  - EventFilter/GEMRawToDigi
+  - DataFormats/FEDRawData
+  reco_category: 'MUO'
+  title: GEM - fixed mapping for GE0
+- author: '@thomreis'
+  number: '32997'
+  packages:
+  - RecoEcal/EgammaClusterProducers
+  - RecoEcal/EgammaClusterAlgos
+  reco_category: 'ECAL'
+  title: Consume records for mustache SC only if the mustache algo is used
+- author: '@swagata87'
+  number: '32978'
+  packages:
+  - RecoEgamma/EgammaHLTProducers
+  - RecoHGCal/TICL
+  reco_category: 'HLT'
+  title: Seed TICL by L1 e/gamma, other timing considerations for e/gamma HLT
+- author: '@perrotta'
+  number: '32976'
+  packages:
+  - RecoLocalMuon/CSCEfficiency
+  reco_category: 'MUO'
+  title: Remove dead assignment in CSCEfficiency
+- author: '@CTPPS'
+  number: '32971'
+  packages:
+  - RecoPPS/Local
+  reco_category: 'general'
+  title: PPS strings --> InputTag
+- author: '@Dr15Jones'
+  number: '32964'
+  packages:
+  - DataFormats/PatCandidates
+  reco_category: 'general'
+  title: Avoid deref of Ref in copy constructor of PackedCandidate
+- author: '@nvoytish'
+  number: '32948'
+  packages:
+  - RecoLocalMuon/CSCSegment
+  - RecoLocalMuon/CSCRecHitD
+  reco_category: 'MUO'
+  title: CSC RU builder widened roads and narrower anode time window switched to default
+- author: '@jpata'
+  number: '32945'
+  packages:
+  - RecoTracker/FinalTrackSelectors
+  reco_category: 'TRK'
+  title: fix trackdnn TfGraphDefWrapper memory leak
+- author: '@mrodozov'
+  number: '32943'
+  packages:
+  - EventFilter/RPCRawToDigi
+  - CondTools/RPC
+  - L1Trigger/RPCTechnicalTrigger
+  - RecoParticleFlow/PFClusterProducer
+  - CaloOnlineTools/HcalOnlineDb
+  - CondFormats/EcalObjects
+  - EventFilter/L1TRawToDigi
+  - CalibCalorimetry/HcalAlgos
+  reco_category: 'general'
+  title: Boost 1.75 missing headers, include location
+- author: '@riga'
+  number: '32942'
+  packages:
+  - PhysicsTools/PythonAnalysis
+  - PhysicsTools/TensorFlow
+  reco_category: 'ML'
+  title: Adapt python code to updated ML software
+- author: '@jeongeun'
+  number: '32936'
+  packages:
+  - RecoMET/METPUSubtraction
+  - RecoMET/METProducers
+  reco_category: 'general'
+  title: Move cms.Sequence to cms.Task for RecoMET
+- author: '@jeongeun'
+  number: '32935'
+  packages:
+  - RecoMET/METPUSubtraction
+  - RecoMET/Configuration
+  - RecoMET/METFilters
+  reco_category: 'general'
+  title: type specifications in RecoMET
+- author: '@werdmann'
+  number: '32924'
+  packages:
+  - RecoVertex/PrimaryVertexProducer
+  reco_category: 'TRK'
+  title: add missing Tc updates before cluster merging
+- author: '@jeongeun'
+  number: '32923'
+  packages:
+  - RecoParticleFlow/PFClusterProducer
+  - RecoParticleFlow/PFProducer
+  reco_category: 'general'
+  title: type specs in RecoParticleFlow
+- author: '@jeongeun'
+  number: '32922'
+  packages:
+  - RecoMuon/GlobalMuonProducer
+  - RecoMuon/MuonIsolationProducers
+  - RecoMuon/MuonSeedGenerator
+  reco_category: 'general'
+  title: type specs in RecoMuon
+- author: '@missirol'
+  number: '32919'
+  packages:
+  - RecoPixelVertexing/PixelVertexFinding
+  reco_category: 'TRK'
+  title: small technical fix in PixelVertexCollectionTrimmer
+- author: '@silviodonato'
+  number: '32915'
+  packages:
+  - RecoJets/JetAlgorithms
+  reco_category: 'JME'
+  title: Fix in header protection of CATopJetHelper
+- author: '@Sam-Harper'
+  number: '32901'
+  packages:
+  - RecoEgamma/EgammaTools
+  - DataFormats/Common
+  - Configuration/AlCa
+  - RecoEcal/EgammaClusterAlgos
+  - RecoEcal/EgammaClusterProducers
+  - RecoEgamma/EgammaHLTProducers
+  reco_category: 'HGCAL'
+  title: Adding HGCAL SuperCluster Regressions
+- author: '@perrotta'
+  number: '32884'
+  packages:
+  - DataFormats/MuonReco
+  reco_category: 'MUO'
+  title: Remove outdated comments about previous implementation of rpcMatches in Muon.cc
+- author: '@CTPPS'
+  number: '32868'
+  packages:
+  - CalibPPS/ESProducers
+  - CondCore/CTPPSPlugins
+  - RecoPPS/Configuration
+  - CondFormats/PPSObjects
+  - SimPPS/Configuration
+  - SimPPS/PPSPixelDigiProducer
+  - Validation/CTPPS
+  - CondFormats/DataRecord
+  - Configuration/PyReleaseValidation
+  - Geometry/VeryForwardGeometry
+  - RecoPPS/Local
+  reco_category: 'CTPPS'
+  title: PPS pixel topology 
+- author: '@Dr15Jones'
+  number: '32859'
+  packages:
+  - L1Trigger/Phase2L1ParticleFlow
+  - DataFormats/L1TrackTrigger
+  - L1Trigger/L1CaloTrigger
+  - DataFormats/TrackerRecHit2D
+  - RecoLocalTracker/SubCollectionProducers
+  - DataFormats/GEMRecHit
+  - DataFormats/L1TCalorimeterPhase2
+  - HLTriggerOffline/Higgs
+  reco_category: 'general'
+  title: Move MessageLogger calls in DataFormat to source
+- author: '@Dr15Jones'
+  number: '32824'
+  packages:
+  - DataFormats/PatCandidates
+  - RecoMET/METPUSubtraction
+  - HLTriggerOffline/Exotica
+  - DataFormats/SiStripCluster
+  - TopQuarkAnalysis/TopKinFitter
+  - DataFormats/HLTReco
+  - Calibration/Tools
+  - DataFormats/Luminosity
+  - RecoMuon/MuonIdentification
+  - RecoEgamma/EgammaElectronAlgos
+  - DataFormats/EgammaCandidates
+  - DataFormats/TauReco
+  - RecoEgamma/ElectronIdentification
+  - DQMOffline/CalibCalo
+  - SimCalorimetry/HGCalAssociatorProducers
+  - RecoMET/METAlgorithms
+  - RecoParticleFlow/PFProducer
+  - RecoTauTag/RecoTau
+  - CommonTools/ParticleFlow
+  - RecoLocalTracker/SiPhase2VectorHitBuilder
+  - DQM/HLTEvF
+  - JetMETCorrections/Type1MET
+  - CommonTools/RecoAlgos
+  - DQM/Physics
+  - RecoLocalTracker/SiStripClusterizer
+  - RecoJets/JetProducers
+  - Validation/RecoEgamma
+  - PhysicsTools/PatAlgos
+  - RecoEgamma/EgammaElectronProducers
+  - RecoLocalTracker/SiStripRecHitConverter
+  - RecoTracker/TkSeedGenerator
+  - PhysicsTools/SelectorUtils
+  - DQMOffline/Trigger
+  reco_category: 'general'
+  title: Remove include of MessageLogger.h from DataFormats headers
+- author: '@werdmann'
+  number: '32764'
+  packages:
+  - RecoVertex/PrimaryVertexProducer
+  reco_category: 'TRK'
+  title: avoid single letter names and code cleanup
+- author: '@minxiyang'
+  number: '32128'
+  packages:
+  - Configuration/PyReleaseValidation
+  - RecoTracker/IterativeTracking
+  - TrackingTools/Records
+  - RecoTracker/FinalTrackSelectors
+  reco_category: 'TRK'
+  title: Track classifier using TensorFlow
+

@@ -1,0 +1,36 @@
+- author: '@khaosmos93'
+  number: '32700'
+  packages:
+  - HLTrigger/HLTfilters
+  - HLTrigger/Muon
+  - RecoMuon/L2MuonSeedGenerator
+  reco_category: 'HLT'
+  title: New producers and filters for the Phase 2 Muon HLT
+- author: '@Sam-Harper'
+  number: '32644'
+  packages:
+  - RecoEgamma/EgammaHLTProducers
+  - DataFormats/L1TrackTrigger
+  - RecoEgamma/EgammaIsolationAlgos
+  reco_category: 'HLT'
+  title: Egamma HLT L1 Track Isolation Producer & TTTrack typedef
+- author: '@felicepantaleo'
+  number: '32527'
+  packages:
+  - RecoHGCal/TICL
+  reco_category: 'HGCAL'
+  title: fix NaN values in LeafCandidate rapidity
+- author: '@SohamBhattacharya'
+  number: '32517'
+  packages:
+  - RecoEgamma/EgammaHLTProducers
+  - RecoEgamma/EgammaTools
+  reco_category: 'HLT'
+  title: HGCal ID variables
+- author: '@missirol'
+  number: '32434'
+  packages:
+  - CommonTools/PileupAlgos
+  reco_category: 'JME'
+  title: option to use generic PU proxy
+

@@ -1,0 +1,35 @@
+- author: '@mmusich'
+  number: '32712'
+  packages:
+  - Configuration/AlCa
+  - CondFormats/SiPixelTransient
+  reco_category: 'TRK'
+  title: Updated phase 2 templates with extended angle space
+- author: '@mandrenguyen'
+  number: '32696'
+  packages:
+  - DataFormats/PatCandidates
+  - PhysicsTools/PatAlgos
+  reco_category: 'HI'
+  title: Maintain access to genParticles from signal event in packed collection
+- author: '@mariadalfonso'
+  number: '32662'
+  packages:
+  - RecoLocalCalo/HcalRecAlgos
+  reco_category: 'HCAL'
+  title: HBHE avoid double counting of correlated term
+- author: '@guitargeek'
+  number: '32619'
+  packages:
+  - RecoEgamma/EgammaPhotonProducers
+  - RecoEgamma/EgammaTools
+  reco_category: 'EGM'
+  title: Correctly add HIPhotonIsolation to pat.photon
+- author: '@SohamBhattacharya'
+  number: '32520'
+  packages:
+  - RecoEgamma/EgammaTools
+  - RecoEgamma/EgammaHLTProducers
+  reco_category: 'HLT'
+  title: HGCal ID variables
+

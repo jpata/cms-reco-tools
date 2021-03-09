@@ -1,0 +1,261 @@
+- author: '@hatakeyamak'
+  number: '32873'
+  packages:
+  - RecoParticleFlow/PFClusterProducer
+  reco_category: 'PF'
+  title: Add additional checks for seed candidate masking to deal with HCAL geometry
+- author: '@fabiocos'
+  number: '32840'
+  packages:
+  - RecoMTD/DetLayers
+  - data/dd4hep
+  - Geometry/MTDGeometryBuilder
+  - Geometry/MTDNumberingBuilder
+  - Geometry/MTDCommonData
+  reco_category: 'MTD'
+  title: update MTD geometry etlv5 setup to fit in D75-D76 envelope without overlaps
+- author: '@slava77'
+  number: '32838'
+  packages:
+  - RecoTauTag/RecoTau
+  reco_category: 'TAU'
+  title: use non-static lambda in DeepTauId::CellGrid::tryGetCellIndex
+- author: '@elusian'
+  number: '32814'
+  packages:
+  - PhysicsTools/PatAlgos
+  reco_category: 'XPOG'
+  title: Fix lostTracks producer not setting lostInnerHits
+- author: '@perrotta'
+  number: '32812'
+  packages:
+  - RecoHI/HiJetAlgos
+  - RecoParticleFlow/PFProducer
+  - RecoBTag/SecondaryVertex
+  reco_category: 'general'
+  title: Remove a few unneeded header inclusions in reco packages
+- author: '@jeongeun'
+  number: '32794'
+  packages:
+  - RecoEgamma/EgammaPhotonProducers
+  - RecoEgamma/EgammaElectronProducers
+  - RecoEgamma/EgammaIsolationAlgos
+  reco_category: 'general'
+  title: drop type specifications in RecoEgamma
+- author: '@mmusich'
+  number: '32789'
+  packages:
+  - Configuration/Geometry
+  - RecoLocalTracker/SiPixelRecHits
+  - Configuration/StandardSequences
+  - Configuration/Eras
+  - Configuration/PyReleaseValidation
+  - SimTracker/SiPhase2Digitizer
+  - Configuration/AlCa
+  - Configuration/ProcessModifiers
+  - RecoTracker/TransientTrackingRecHit
+  reco_category: 'TRK'
+  title: Phase-2 Inner Tracker local reconstruction configuration updates
+- author: '@jeongeun'
+  number: '32787'
+  packages:
+  - RecoJets/JetProducers
+  - RecoJets/JetPlusTracks
+  - RecoJets/Configuration
+  reco_category: 'general'
+  title: drop type specifications in RecoJets
+- author: '@davidlange6'
+  number: '32775'
+  packages:
+  - CUDADataFormats/CaloCommon
+  reco_category: 'general'
+  title: add missing dependency on DataFormats/Common to CUDADataFormats/CaloCommon
+- author: '@hatakeyamak'
+  number: '32766'
+  packages:
+  - RecoParticleFlow/PFProducer
+  - RecoHGCal/TICL
+  - RecoParticleFlow/Configuration
+  reco_category: 'PF'
+  title: Change the default phase 2 PF reconstruction for endcap from simPF to pfTICL
+- author: '@guitargeek'
+  number: '32762'
+  packages:
+  - CalibPPS/ESProducers
+  - CondCore/Utilities
+  - RecoMuon/L2MuonSeedGenerator
+  - DQM/DataScouting
+  - CalibTracker/SiPixelTools
+  - RecoHGCal/TICL
+  - CalibTracker/SiPixelESProducers
+  reco_category: 'general'
+  title: More BuildFiles cleaning
+- author: '@guitargeek'
+  number: '32752'
+  packages:
+  - RecoLocalTracker/SiPixelClusterizer
+  reco_category: 'general'
+  title: Add missing FWCore/Utilities dependency to RecoLocalTracker/SiPixelClusterizer
+- author: '@hatakeyamak'
+  number: '32733'
+  packages:
+  - RecoParticleFlow/PFProducer
+  reco_category: 'PF'
+  title: Fix the PFBlockElement casting in PFEGammaAlgo
+- author: '@lathomas'
+  number: '32728'
+  packages:
+  - PhysicsTools/PatUtils
+  - PhysicsTools/NanoAOD
+  reco_category: 'XPOG'
+  title: Updates to the L1 prefiring weight producer
+- author: '@guitargeek'
+  number: '32724'
+  packages:
+  - RecoEgamma/EgammaPhotonProducers
+  - RecoEgamma/EgammaElectronProducers
+  reco_category: 'general'
+  title: Implement fillDescriptions in ConversionTrackCandidateProducer
+- author: '@nurfikri89'
+  number: '32722'
+  packages:
+  - PhysicsTools/NanoAOD
+  - PhysicsTools/PatAlgos
+  reco_category: 'XPOG'
+  title: event size reduction
+- author: '@guitargeek'
+  number: '32714'
+  packages:
+  - EventFilter/EcalRawToDigi
+  - GeneratorInterface/TauolaInterface
+  - RecoLocalCalo/EcalRecProducers
+  - RecoLocalTracker/SiPixelClusterizer
+  - SimPPS/PPSPixelDigiProducer
+  - RecoMuon/L2MuonSeedGenerator
+  - IOMC/EventVertexGenerators
+  - RecoLocalCalo/EcalRecAlgos
+  - GeneratorInterface/ExhumeInterface
+  - Geometry/VeryForwardGeometryBuilder
+  reco_category: 'general'
+  title: Clean various BuildFiles
+- author: '@khaosmos93'
+  number: '32713'
+  packages:
+  - HLTrigger/Muon
+  - HLTrigger/HLTfilters
+  - RecoMuon/L2MuonSeedGenerator
+  reco_category: 'HLT'
+  title: Follow-up of Phase 2 Muon HLT
+- author: '@Dr15Jones'
+  number: '32706'
+  packages:
+  - DPGAnalysis/Skims
+  - RecoLocalCalo/Castor
+  - DQMServices/Components
+  - HLTrigger/special
+  - DataFormats/Common
+  - FWCore/MessageService
+  - FWCore/MessageLogger
+  - FWCore/Modules
+  - PhysicsTools/UtilAlgos
+  - DQM/TrackingMonitor
+  reco_category: 'general'
+  title: Move edm::ErrorSummaryEntry to DataFormats/Common
+- author: '@khaosmos93'
+  number: '32699'
+  packages:
+  - HLTrigger/Muon
+  - HLTrigger/HLTfilters
+  - RecoMuon/L2MuonSeedGenerator
+  reco_category: 'HLT'
+  title: New producers and filters for the Phase 2 Muon HLT
+- author: '@jeongeun'
+  number: '32695'
+  packages:
+  - RecoEcal/EgammaClusterProducers
+  reco_category: 'general'
+  title: Move parameters inside the modifier
+- author: '@jeongeun'
+  number: '32694'
+  packages:
+  - RecoTracker/MeasurementDet
+  - RecoTracker/IterativeTracking
+  - RecoTracker/Configuration
+  - RecoTracker/DeDx
+  - RecoTracker/ConversionSeedGenerators
+  - RecoTracker/FinalTrackSelectors
+  reco_category: 'general'
+  title: drop type specifications in RecoTracker
+- author: '@perrotta'
+  number: '32693'
+  packages:
+  - RecoMET/METAlgorithms
+  reco_category: 'JME'
+  title: Minor updates to improve performance of METSignificance::getCovariance
+- author: '@guitargeek'
+  number: '32688'
+  packages:
+  - CUDADataFormats/HcalDigi
+  - HeterogeneousCore/CUDAServices
+  - CUDADataFormats/EcalDigi
+  - CUDADataFormats/CaloCommon
+  - HeterogeneousCore/MPIServices
+  - HeterogeneousCore/CUDACore
+  - HeterogeneousCore/CUDATest
+  reco_category: 'general'
+  title: Clean BuildFiles in CUDADataFormats and HeterogeneousCore
+- author: '@guitargeek'
+  number: '32687'
+  packages:
+  - RecoEgamma/EgammaPhotonProducers
+  reco_category: 'general'
+  title: Some modernization of EgammaPhotonProducers
+- author: '@guitargeek'
+  number: '32678'
+  packages:
+  - RecoEgamma/EgammaIsolationAlgos
+  - RecoParticleFlow/PFProducer
+  reco_category: 'general'
+  title: Some cleanup and modernization in EgammaIsolationAlgos plugins
+- author: '@cms-tau-pog'
+  number: '32676'
+  packages:
+  - RecoTauTag/RecoTau
+  reco_category: 'TAU'
+  title: Further preparations of deep tau ID for hlt phase2
+- author: '@mandrenguyen'
+  number: '32668'
+  packages:
+  - DataFormats/PatCandidates
+  - PhysicsTools/PatAlgos
+  reco_category: 'HI'
+  title: Maintain access to genParticles from signal event in packed collection for HI miniAOD
+- author: '@singh-ramanpreet'
+  number: '32418'
+  packages:
+  - RecoJets/JetProducers
+  reco_category: 'JME'
+  title: Pileup Id training for UL18
+- author: '@hatakeyamak'
+  number: '32291'
+  packages:
+  - HLTrigger/Configuration
+  - RecoParticleFlow/PFProducer
+  - RecoHI/Configuration
+  - RecoParticleFlow/PFTracking
+  - RecoHGCal/TICL
+  reco_category: 'PF'
+  title: Improving the boundary between PFAlgo and PFTICL (or simPF) for phase2
+- author: '@doujadarej'
+  number: '32036'
+  packages:
+  - RecoTracker/IterativeTracking
+  - DataFormats/TrackReco
+  - RecoTracker/TkSeedingLayers
+  - Validation/RecoTrack
+  - RecoTracker/FinalTrackSelectors
+  - Configuration/ProcessModifiers
+  - DQM/TrackingMonitorSource
+  reco_category: 'TRK'
+  title: DisplacedGeneralStep in tracking
+
